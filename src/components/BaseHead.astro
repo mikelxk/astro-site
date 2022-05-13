@@ -1,0 +1,20 @@
+---
+import "../styles/blog.css";
+
+export interface Props {
+  title: string;
+  description: string;
+  permalink: string;
+}
+const { title, description, permalink } = Astro.props;
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="icon" type="image/x-icon" href="/Elaina.webp" />
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
