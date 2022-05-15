@@ -1,13 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/tailwind': ^0.2.1
+  '@astrojs/tailwind': 0.2.1
   astro: 1.0.0-beta.28
-  astro-icon: ^0.7.1
-  prettier: ^2.6.2
-  prettier-plugin-astro: ^0.0.12
-  react: ^18.1.0
-  react-dom: ^18.1.0
+  astro-icon: 0.7.1
+  prettier: 2.6.2
+  prettier-plugin-astro: 0.0.12
+  react: 18.1.0
+  react-dom: 18.1.0
 
 devDependencies:
   '@astrojs/tailwind': 0.2.1
