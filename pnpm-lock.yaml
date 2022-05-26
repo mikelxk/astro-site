@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': 0.2.1
-  astro: 1.0.0-beta.33
+  astro: 1.0.0-beta.34
   astro-icon: 0.7.1
   prettier: 2.6.2
   prettier-plugin-astro: 0.0.12
@@ -11,7 +11,7 @@ specifiers:
 
 devDependencies:
   '@astrojs/tailwind': 0.2.1
-  astro: 1.0.0-beta.33
+  astro: 1.0.0-beta.34
   astro-icon: 0.7.1
   prettier: 2.6.2
   prettier-plugin-astro: 0.0.12
@@ -53,8 +53,8 @@ packages:
       vscode-uri: 3.0.3
     dev: true
 
-  /@astrojs/markdown-remark/0.10.0:
-    resolution: {integrity: sha512-/CapbU9WI6MrVZw+6mmTYRaT/8PyaFvMCd/Q6EarMSO2OBpWTjLrkwwslwlUZ6alekhEFcOh2nR6IlztQX1+Ew==}
+  /@astrojs/markdown-remark/0.10.1:
+    resolution: {integrity: sha512-yFVvncPjy/WmLer4PwieEB7eWy7jNUhAKFp9ydgFsTnbyzVKBvV5agaoBdEl/FasftyHPXecyzf1M6p+x5lFWA==}
     dependencies:
       '@astrojs/prism': 0.4.1
       assert: 2.0.0
@@ -663,14 +663,14 @@ packages:
       svgo: 2.8.0
     dev: true
 
-  /astro/1.0.0-beta.33:
-    resolution: {integrity: sha512-cLQQpOne8wgYjlJt5EP//y2nDNsuOOEoZlXOxNkC/f7pHNmHtv97ySNafbrmpqs8lyJ4x4E620B+Mf+jGdTNMQ==}
+  /astro/1.0.0-beta.34:
+    resolution: {integrity: sha512-oA19VduaBloV2SHW9NjEQXTdNQBsWpjnmvopVRhUViRPZMGL8qc4EsJGqd7mWjdTSVor3CW6iCEqyzBnMeIfNw==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 0.15.1
       '@astrojs/language-server': 0.13.4
-      '@astrojs/markdown-remark': 0.10.0
+      '@astrojs/markdown-remark': 0.10.1
       '@astrojs/prism': 0.4.1
       '@astrojs/telemetry': 0.1.2
       '@astrojs/webapi': 0.12.0
@@ -949,7 +949,7 @@ packages:
     dev: true
 
   /clone/1.0.4:
-    resolution: {integrity: sha1-2jCcwmPfFZlMaIypAheco8fNfH4=}
+    resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
     dev: true
 
@@ -967,7 +967,7 @@ packages:
     dev: true
 
   /color-name/1.1.3:
-    resolution: {integrity: sha1-p9BVi9icQveV3UIyj3QIMcpTvCU=}
+    resolution: {integrity: sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw==}
     dev: true
 
   /color-name/1.1.4:
