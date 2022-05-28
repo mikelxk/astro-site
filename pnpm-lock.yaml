@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': 0.2.1
-  astro: 1.0.0-beta.35
+  astro: 1.0.0-beta.36
   astro-icon: 0.7.1
   prettier: 2.6.2
   prettier-plugin-astro: 0.0.12
@@ -11,7 +11,7 @@ specifiers:
 
 devDependencies:
   '@astrojs/tailwind': 0.2.1
-  astro: 1.0.0-beta.35
+  astro: 1.0.0-beta.36
   astro-icon: 0.7.1
   prettier: 2.6.2
   prettier-plugin-astro: 0.0.12
@@ -663,8 +663,8 @@ packages:
       svgo: 2.8.0
     dev: true
 
-  /astro/1.0.0-beta.35:
-    resolution: {integrity: sha512-xbu3UxQ2wsNvWfsBha492rtGb/Megf2Ci5XrK1Pu84Ik9JuyBmRhyCBt+yntEBNVXIcgVY0FLw9uhQiUDSYL0Q==}
+  /astro/1.0.0-beta.36:
+    resolution: {integrity: sha512-FbmhCU8OsIf6fBZTTO0L2PefGmUpatlOMqtzo/xJ4vcfja4WYjAzLcqTaYOOMrLkXB3yt8sxcdiYh+hJAxl+hg==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1079,7 +1079,7 @@ packages:
     dev: true
 
   /dedent-js/1.0.1:
-    resolution: {integrity: sha1-vuX7fJ5yfYXf+iRZDRDsGrElUwU=}
+    resolution: {integrity: sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==}
     dev: true
 
   /deepmerge/4.2.2:
@@ -1088,7 +1088,7 @@ packages:
     dev: true
 
   /defaults/1.0.3:
-    resolution: {integrity: sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=}
+    resolution: {integrity: sha512-s82itHOnYrN0Ib8r+z7laQz3sdE+4FP3d9Q7VLO7U+KRT+CR0GsWuyHxzdAY82I7cXv0G/twrqomTJLOssO5HA==}
     dependencies:
       clone: 1.0.4
     dev: true
