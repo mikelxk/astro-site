@@ -1,7 +1,7 @@
 @tailwind base;
 @layer base {
   body {
-    @apply bg-[#f6f6f6] dark:bg-[rgb(50,51,54)] font-mono text-gray-900 dark:text-gray-100;
+    @apply bg-[#f6f6f6] font-mono text-gray-900 dark:bg-[rgb(50,51,54)] dark:text-gray-100;
   }
 }
 @tailwind components;

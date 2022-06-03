@@ -6,10 +6,9 @@ export interface Props {
   description: string;
   permalink: string;
 }
-const { title, description, permalink } = Astro.props;
+const { title, description, permalink } = Astro.props as Props;
 ---
 
-<!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 <link rel="icon" type="image/x-icon" href="/Elaina.webp" />

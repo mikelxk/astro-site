@@ -4,8 +4,9 @@ import BlogHeader from "../components/BlogHeader.astro";
 import BlogPost from "../components/BlogPost.astro";
 
 const { content } = Astro.props;
-const { title, description, publishDate, author, heroImage, permalink, alt } =
+const { title, description, publishDate, name, heroImage, permalink, alt } =
   content;
+
 ---
 
 <html lang={content.lang || "en"}>
@@ -16,8 +17,8 @@ const { title, description, publishDate, author, heroImage, permalink, alt } =
   <body>
     <BlogHeader />
     <div class="wrapper">
-      <BlogPost {title} {author} {heroImage} {publishDate} {alt}>
-        <slot />
+      <BlogPost {title} author={name} {heroImage} {publishDate} {alt}>
+        <slot></slot>
       </BlogPost>
     </div>
   </body>
