@@ -1,17 +1,20 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 @layer base {
   body {
     @apply bg-[#f6f6f6] font-mono text-gray-900 dark:bg-[rgb(50,51,54)] dark:text-gray-100;
   }
   a {
-    @apply font-normal no-underline items-center gap-2;
-    color: var(--theme-accent);
+    @apply font-normal no-underline items-center gap-2 text-[#92a8d1];
     text-underline-offset: 0.08em;
   }
 }
-@tailwind components;
-@tailwind utilities;
-
+@layer utilities {
+  .wrapper {
+    @apply mx-auto max-w-[65em] px-8 w-full;
+  }
+}
 :root {
   --color-white: #fff;
   --color-black: #000014;
@@ -72,14 +75,6 @@
   --theme-code-bg: var(--color-gray-900);
 }
 
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 65em;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  width: 100%;
-}
 /* small,
 .text_small {
   font-size: 0.833rem;

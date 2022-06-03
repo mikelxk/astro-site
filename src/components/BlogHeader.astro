@@ -1,44 +1,10 @@
 <header class="wrapper pt-4 pb-4 h-20">
   <article class="flex items-center justify-between">
-    <h1>
+    <h1 class="m-0 max-w-full text-2xl flex flex-grow">
       <a href="/" class="no-underline inline-flex">
-        <img class="rounded-full h-10 translate-y-1" src="/Elaina.webp" />
+        <img class="rounded-full h-10 translate-y-1" src="/Elaina.webp" alt="Mike's avatar"/>
         <span>Mike's Blog</span>
       </a>
     </h1>
   </article>
 </header>
-
-<style>
-  .header-subitem {
-    display: flex;
-    flex-grow: 0;
-    gap: 0.5em;
-    align-items: center;
-    justify-content: center;
-    color: var(--theme-text-lighter);
-    font-size: initial;
-    padding: 0.5rem;
-  }
-  .header-subitem:hover {
-    color: var(--theme-accent);
-  }
-  .header-subitem svg {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-
-  @media (max-width: 32em) {
-    .header-subitem {
-      display: none;
-    }
-  }
-
-  h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    max-width: 100%;
-    display: flex;
-    flex-grow: 1;
-  }
-</style>
