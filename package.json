@@ -13,7 +13,7 @@
     "@astrojs/tailwind": "0.2.1",
     "astro": "1.0.0-beta.46",
     "astro-icon": "0.7.1",
-    "prettier": "2.7.0",
+    "prettier": "2.7.1",
     "prettier-plugin-astro": "0.1.0-next.5",
     "prettier-plugin-tailwindcss": "^0.1.11",
     "react": "18.2.0",
