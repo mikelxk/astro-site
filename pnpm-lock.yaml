@@ -5,7 +5,7 @@ specifiers:
   astro: 1.0.0-beta.54
   astro-icon: 0.7.1
   prettier: 2.7.1
-  prettier-plugin-astro: 0.1.0
+  prettier-plugin-astro: 0.1.1
   prettier-plugin-tailwindcss: ^0.1.11
   react: 18.2.0
   react-dom: 18.2.0
@@ -16,7 +16,7 @@ devDependencies:
   astro: 1.0.0-beta.54
   astro-icon: 0.7.1
   prettier: 2.7.1
-  prettier-plugin-astro: 0.1.0
+  prettier-plugin-astro: 0.1.1
   prettier-plugin-tailwindcss: 0.1.11_prettier@2.7.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -3025,8 +3025,8 @@ packages:
       which-pm: 2.0.0
     dev: true
 
-  /prettier-plugin-astro/0.1.0:
-    resolution: {integrity: sha512-ArJs75ccm/U9v0n0ccr2KYnCeXCkjkgc9anemlUFA0ebs1BkTbcmYhOtwouZ2TLU0PGchoCjApt900bu01B/DQ==}
+  /prettier-plugin-astro/0.1.1:
+    resolution: {integrity: sha512-587zFbgQoZm13jjGukkW0xMDKLwuMw6RlSuvsjdjRr43JWUFTJVxwFnw44pLYLVRwGQLOCDBwBKiZEJ10ghBlQ==}
     engines: {node: ^14.13.1 || >=16.0.0, npm: '>=6.14.0'}
     dependencies:
       '@astrojs/compiler': 0.15.2
