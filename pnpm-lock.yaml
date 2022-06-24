@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': 0.2.1
-  astro: 1.0.0-beta.52
+  astro: 1.0.0-beta.53
   astro-icon: 0.7.1
   prettier: 2.7.1
   prettier-plugin-astro: 0.1.0-next.5
@@ -13,7 +13,7 @@ specifiers:
 
 devDependencies:
   '@astrojs/tailwind': 0.2.1
-  astro: 1.0.0-beta.52
+  astro: 1.0.0-beta.53
   astro-icon: 0.7.1
   prettier: 2.7.1
   prettier-plugin-astro: 0.1.0-next.5
@@ -646,8 +646,8 @@ packages:
       svgo: 2.8.0
     dev: true
 
-  /astro/1.0.0-beta.52:
-    resolution: {integrity: sha512-rYloMdpiiTn/Fd5ngRzQfcnWwYOeci0Sp87eLFS3s3o6wRVPEiYnBKYHA2L5Eoyx/IdAqvHf0Er26pDA7sYwXg==}
+  /astro/1.0.0-beta.53:
+    resolution: {integrity: sha512-K+sgcQ3EGWi7ewZTScXgBRMvOMatVrQH400WqkUVPV48wJK0X2fN3r9nW+oZtVCE9RRfNdr/oaWeLi55LkJRBA==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
