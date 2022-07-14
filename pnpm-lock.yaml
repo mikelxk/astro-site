@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': 0.2.4
-  astro: 1.0.0-beta.70
+  astro: 1.0.0-beta.71
   astro-icon: 0.7.1
   prettier: 2.7.1
   prettier-plugin-astro: 0.1.1
@@ -13,7 +13,7 @@ specifiers:
 
 devDependencies:
   '@astrojs/tailwind': 0.2.4
-  astro: 1.0.0-beta.70
+  astro: 1.0.0-beta.71
   astro-icon: 0.7.1
   prettier: 2.7.1
   prettier-plugin-astro: 0.1.1
@@ -39,8 +39,8 @@ packages:
       uvu: 0.5.3
     dev: true
 
-  /@astrojs/compiler/0.18.2:
-    resolution: {integrity: sha512-R2lOpaif3hDju2/sE6OrKvnTMgrcLRJw+jAVih9pLA2ATgy2EnhYMhflRk1vQ6+YwuhyL6Lj/dRJFXgB7r70eg==}
+  /@astrojs/compiler/0.19.0:
+    resolution: {integrity: sha512-8nvyxZTfCXLyRmYfTttpJT6EPhfBRg0/q4J/Jj3/pNPLzp+vs05ZdktsY6QxAREaOMAnNEtSqcrB4S5DsXOfRg==}
     dev: true
 
   /@astrojs/language-server/0.13.4:
@@ -61,8 +61,8 @@ packages:
       vscode-uri: 3.0.3
     dev: true
 
-  /@astrojs/markdown-remark/0.11.6:
-    resolution: {integrity: sha512-UOhUWCn7ODUq+W9w6dPASzLQHBvuQuo0ZirC10Rhh3T34b2pOlrFhFKgUnlLnFEN8BQaR3P4oassk+OQwLGrKg==}
+  /@astrojs/markdown-remark/0.11.7:
+    resolution: {integrity: sha512-kiGQzE0X7NJOZhluyCvOKWaZomB+efx7MhESf5cLJsuTI4dvGxEZmL7kZVnuDO5d2gvyeIBkZiD64bndKyxSkw==}
     dependencies:
       '@astrojs/micromark-extension-mdx-jsx': 1.0.3
       '@astrojs/prism': 0.6.0
@@ -681,14 +681,14 @@ packages:
       svgo: 2.8.0
     dev: true
 
-  /astro/1.0.0-beta.70:
-    resolution: {integrity: sha512-P3fgn6bv5lEcLj3LZ3b+5z6TC5eni93q4m5Y2Mn45/gKIr0Bb/1le3eqGcRfjp0bpKpaDomBufiOPWZjWnIBUg==}
+  /astro/1.0.0-beta.71:
+    resolution: {integrity: sha512-YdVCS6+PF2npp573g474QZg3Yo0zQKvyfL+Crmt/kF1AHT3/zGtLC9DCmELICxs2hSL8KwYlceYJJW9NtZzYqA==}
     engines: {node: ^14.20.0 || >=16.14.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 0.18.2
+      '@astrojs/compiler': 0.19.0
       '@astrojs/language-server': 0.13.4
-      '@astrojs/markdown-remark': 0.11.6
+      '@astrojs/markdown-remark': 0.11.7
       '@astrojs/prism': 0.6.0
       '@astrojs/telemetry': 0.4.0
       '@astrojs/webapi': 0.12.0
