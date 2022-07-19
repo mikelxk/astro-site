@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/tailwind': 0.2.4
   astro: 1.0.0-beta.73
-  astro-icon: 0.7.1
+  astro-icon: 0.7.3
   prettier: 2.7.1
   prettier-plugin-astro: 0.1.1
   prettier-plugin-tailwindcss: ^0.1.11
@@ -14,7 +14,7 @@ specifiers:
 devDependencies:
   '@astrojs/tailwind': 0.2.4
   astro: 1.0.0-beta.73
-  astro-icon: 0.7.1
+  astro-icon: 0.7.3
   prettier: 2.7.1
   prettier-plugin-astro: 0.1.1
   prettier-plugin-tailwindcss: 0.1.11_prettier@2.7.1
@@ -662,8 +662,8 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /astro-icon/0.7.1:
-    resolution: {integrity: sha512-EdWXi3j0fkFgzdhyxqGbaDPdpLb5y593E6e5zvxW8PL/6DjW/x2OhtaTuTMV5xRUCUsfzwOhXiW6EYa+EBTwJw==}
+  /astro-icon/0.7.3:
+    resolution: {integrity: sha512-choatz5A5pKFMzmGJucvtliOxYJLUQ94bjgoGJHYLQnX7FRG+YhnONoyyapno6iVFavCIytSREOy4Vcg2wMYUA==}
     dependencies:
       node-fetch: 3.2.6
       resolve-pkg: 2.0.0
@@ -3341,6 +3341,7 @@ packages:
 
   /stable/0.1.8:
     resolution: {integrity: sha512-ji9qxRnOVfcuLDySj9qzhGSEFVobyt1kIOSkj1qZzYLzq7Tos/oUUWvotUPQLlrsidqsK6tBH89Bc9kL5zHA6w==}
+    deprecated: 'Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility'
     dev: true
 
   /string-width/4.2.3:
