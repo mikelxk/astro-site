@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/tailwind': 0.2.4
+  '@astrojs/tailwind': 0.2.5
   astro: 1.0.0-beta.73
   astro-icon: 0.7.3
   prettier: 2.7.1
@@ -12,7 +12,7 @@ specifiers:
   typescript: ^4.7.3
 
 devDependencies:
-  '@astrojs/tailwind': 0.2.4
+  '@astrojs/tailwind': 0.2.5
   astro: 1.0.0-beta.73
   astro-icon: 0.7.3
   prettier: 2.7.1
@@ -102,8 +102,8 @@ packages:
     engines: {node: ^14.18.0 || >=16.12.0}
     dev: true
 
-  /@astrojs/tailwind/0.2.4:
-    resolution: {integrity: sha512-rDpUHXOUmQkReIvaTBgxYsrsz8Hgt93Tbw9gu7Bkf7Uys6cBCnnQgFpPtdgrqyLNZ0qo9vAxWHSyBSi6jAs1yA==}
+  /@astrojs/tailwind/0.2.5:
+    resolution: {integrity: sha512-VbqDVNn/Geb4p0WjjnjBs8staZgubXU16elpxqIwD4y/E2nq585/HWOJt6eK+MifDqeE/C2mGMNK+GLwZW6ylg==}
     dependencies:
       '@proload/core': 0.3.2
       autoprefixer: 10.4.7_postcss@8.4.14
