@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/tailwind': 0.2.5
+  '@astrojs/tailwind': 1.0.0
   astro: 1.0.2
   astro-icon: 0.7.3
   prettier: 2.7.1
@@ -12,7 +12,7 @@ specifiers:
   typescript: ^4.7.3
 
 devDependencies:
-  '@astrojs/tailwind': 0.2.5
+  '@astrojs/tailwind': 1.0.0
   astro: 1.0.2
   astro-icon: 0.7.3
   prettier: 2.7.1
@@ -105,12 +105,12 @@ packages:
       prismjs: 1.28.0
     dev: true
 
-  /@astrojs/tailwind/0.2.5:
-    resolution: {integrity: sha512-VbqDVNn/Geb4p0WjjnjBs8staZgubXU16elpxqIwD4y/E2nq585/HWOJt6eK+MifDqeE/C2mGMNK+GLwZW6ylg==}
+  /@astrojs/tailwind/1.0.0:
+    resolution: {integrity: sha512-hEpvKBJKCStaxRZt3ENDacQlzUTOvW1D7dfIUyTf7jMUK4O+y8Q7gdTjERf1HBEi/YXrYNX1zhAElwp6lvW5oQ==}
     dependencies:
       '@proload/core': 0.3.2
-      autoprefixer: 10.4.7_postcss@8.4.14
-      postcss: 8.4.14
+      autoprefixer: 10.4.7_postcss@8.4.16
+      postcss: 8.4.16
       tailwindcss: 3.1.0
     transitivePeerDependencies:
       - ts-node
@@ -726,7 +726,7 @@ packages:
       - ts-node
     dev: true
 
-  /autoprefixer/10.4.7_postcss@8.4.14:
+  /autoprefixer/10.4.7_postcss@8.4.16:
     resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -738,7 +738,7 @@ packages:
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.14
+      postcss: 8.4.16
       postcss-value-parser: 4.2.0
     dev: true
 
