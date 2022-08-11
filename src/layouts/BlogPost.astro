@@ -10,6 +10,7 @@ const { title, description, publishDate, name, heroImage, permalink, alt } =
 
 <html lang={content.lang || "en"}>
   <head>
+    <link rel="stylesheet" href="/prism-solarized-dark-atom.css" />
     <BaseHead {title} {description} {permalink} />
   </head>
 
@@ -17,7 +18,7 @@ const { title, description, publishDate, name, heroImage, permalink, alt } =
     <BlogHeader />
     <div class="wrapper">
       <BlogPost {title} author={name} {heroImage} {publishDate} {alt}>
-        <slot></slot>
+        <slot />
       </BlogPost>
     </div>
   </body>

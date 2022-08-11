@@ -1,12 +1,11 @@
 ---
-setup: |
-  import Layout from '../../layouts/BlogPost.astro'
-  import Cool from '../../components/Author.astro'
-title: Hello world!
-publishDate: 13 Apr 2022
-name: Mike
-description: Just a Hello World Post!
+layout: '../../layouts/BlogPost.astro'
+title: 'Hello world!'
+publishDate: '13 Apr 2022'
+name: 'Mike'
+description: 'Just a Hello World Post!'
 ---
+import Cool from '../../components/Author.astro'
 
 <Cool name={frontmatter.name} client:load />
 
@@ -24,4 +23,5 @@ const x = 42;
 function returnAnswer() {
   return x;
 }
+
 ```

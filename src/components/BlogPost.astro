@@ -10,48 +10,51 @@ export interface Props {
 const { title, author, publishDate, heroImage, alt } = Astro.props;
 ---
 
+<head> </head>
 <div class="layout">
   <article class="content">
     <div>
       <header>
-        {heroImage && (
-          <img
-            width="720"
-            height="420"
-            class="mt-0 mb-8 w-[100vw] max-w-7xl object-cover object-center md:mt-8 md:mb-16 md:h-64"
-            loading="lazy"
-            src={heroImage}
-            {alt}
-          />
-        )}
+        {
+          heroImage && (
+            <img
+              width="720"
+              height="420"
+              class="mt-0 mb-8 w-[100vw] max-w-7xl object-cover object-center md:mt-8 md:mb-16 md:h-64"
+              loading="lazy"
+              src={heroImage}
+              {alt}
+            />
+          )
+        }
         <p class="publish-date">{publishDate}</p>
         <h1 class="title">{title}</h1>
         <Author name="@mikelxk" href="https://github.com/mikelxk" />
       </header>
       <main>
-        <slot></slot>
+        <slot />
       </main>
     </div>
   </article>
 </div>
 
 <style>
-	.hero-image {
-		width: 100vw;
-		object-fit: cover;
-		object-position: center;
-		margin-top: 2rem;
-		margin-bottom: 4rem;
-		max-width: 1280px;
-	}
+  .hero-image {
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 1280px;
+  }
 
-	@media (max-width: 50em) {
-		.hero-image {
-			height: 260px;
-			margin-top: 0;
-			margin-bottom: 2rem;
-		}
-	}
+  @media (max-width: 50em) {
+    .hero-image {
+      height: 260px;
+      margin-top: 0;
+      margin-bottom: 2rem;
+    }
+  }
 
   .content {
     margin-bottom: 8rem;

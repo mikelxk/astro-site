@@ -88,7 +88,6 @@ code {
   font-family: var(--font-mono);
   font-size: 0.85em;
   color: inherit;
-  background-color: var(--theme-code-inline-bg);
   padding: var(--padding-block) var(--padding-inline);
   margin: calc(var(--padding-block) * -1) -0.125em;
   border-radius: var(--border-radius);
@@ -102,7 +101,7 @@ pre.astro-code > code {
 pre {
   position: relative;
   --padding-block: 1rem;
-  --padding-inline: 2rem;
+  --padding-inline:  2rem;
   padding: var(--padding-block) var(--padding-inline);
   padding-right: calc(var(--padding-inline) * 2);
 
