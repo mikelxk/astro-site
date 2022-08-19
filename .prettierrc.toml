@@ -1,0 +1,3 @@
+arrowParens = "avoid"
+singleQuote = false
+semi = false

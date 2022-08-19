@@ -1,17 +1,17 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import BlogHeader from "../components/BlogHeader.astro";
-import BlogPost from "../components/BlogPost.astro";
+import BaseHead from "../components/BaseHead.astro"
+import BlogHeader from "../components/BlogHeader.astro"
+import BlogPost from "../components/BlogPost.astro"
 
-const { content } = Astro.props;
+const { content } = Astro.props
 const { title, description, publishDate, name, heroImage, permalink, alt } =
-  content;
+  content
 ---
 
 <html lang={content.lang || "en"}>
   <head>
-    <link rel="stylesheet" href="/prism.css" />
     <BaseHead {title} {description} {permalink} />
+    <link rel="stylesheet" href="/prism.css" />
   </head>
 
   <body>

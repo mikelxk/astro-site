@@ -1,19 +1,19 @@
 ---
-import BaseHead from "../components/BaseHead.astro";
-import BlogHeader from "../components/BlogHeader.astro";
-import BlogPostPreview from "../components/BlogPostPreview.astro";
+import BaseHead from "../components/BaseHead.astro"
+import BlogHeader from "../components/BlogHeader.astro"
+import BlogPostPreview from "../components/BlogPostPreview.astro"
 
-let title = `Blog`;
-let description = `My Recollection on Coding, Design, and Life`;
-let permalink = "https://mikelxk.com/blogs";
+let title = `Blog`
+let description = `My Recollection on Coding, Design, and Life`
+let permalink = "https://mikelxk.com/blogs"
 
-let allPosts = await Astro.glob("./blog/*.mdx");
+let allPosts = await Astro.glob("./blog/*.mdx")
 
 allPosts = allPosts.sort(
   (a, b) =>
     new Date(b.frontmatter.publishDate).valueOf() -
     new Date(a.frontmatter.publishDate).valueOf()
-);
+)
 ---
 
 <html lang="en">
@@ -60,7 +60,7 @@ allPosts = allPosts.sort(
           <p>{description}</p>
         </section>
         <section aria-label="Blog post list">
-          {allPosts.map((p) => <BlogPostPreview post={p} />)}
+          {allPosts.map(p => <BlogPostPreview post={p} />)}
         </section>
       </main>
     </div>
