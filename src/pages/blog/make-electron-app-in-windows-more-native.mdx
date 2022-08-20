@@ -5,9 +5,9 @@ publishDate: '17 Aug 2022'
 name: 'Mike'
 description: 'How to make electron app''s titlebar on Windows more native'
 ---
-import Cool from '../../components/Author.astro'
+import Cool from '@components/Author.astro'
 
-<Cool name={frontmatter.name} client:load />
+<Cool name={frontmatter.name}/>
 
 It is no question that electron's default showing of titlebar and control buttons doesn't look good on Windows.
 

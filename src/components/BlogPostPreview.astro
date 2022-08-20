@@ -6,10 +6,16 @@ export interface Props {
 const { post } = Astro.props
 ---
 
-<article class="post-preview pb-8 mb-8">
+<article
+  class="post-preview border-b-4 border-solid border-[color:var(--theme-divider)] pb-8 mb-8"
+>
   <header class="items-start flex flex-col justify-center text-left pb-8">
-    <p class="publish-date m-0">{post.frontmatter.publishDate}</p>
-    <a href={post.url}><h1 class="title m-0">{post.frontmatter.title}</h1></a>
+    <p class="publish-date text-[1.25rem] m-0">
+      {post.frontmatter.publishDate}
+    </p>
+    <a href={post.url}
+      ><h1 class="font-bold text-[2.25rem] m-0">{post.frontmatter.title}</h1>
+    </a>
   </header>
   <p>{post.frontmatter.description}</p>
   <a class="text-[#92a8d1]" href={post.url}>Read more</a>
@@ -18,25 +24,5 @@ const { post } = Astro.props
 <style>
   .content :global(main > * + *) {
     margin-top: 1rem;
-  }
-
-  .post-preview {
-    border-bottom: 4px solid var(--theme-divider);
-  }
-
-  .title,
-  .author,
-  .publish-date {
-    margin: 0;
-  }
-
-  .publish-date,
-  .author {
-    font-size: 1.25rem;
-  }
-
-  .title {
-    font-size: 2.25rem;
-    font-weight: 700;
   }
 </style>
