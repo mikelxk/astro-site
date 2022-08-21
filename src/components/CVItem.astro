@@ -1,0 +1,51 @@
+---
+export interface Props {
+  item: {
+    start: Date
+    end?: Date
+    title: string
+    company: string
+    description: string
+  }
+}
+const {
+  item: { start, end, title, company, description },
+} = Astro.props as Props
+
+const now = new Date()
+const endTime = end ?? now
+const startYear = start.getFullYear()
+const endYear = endTime.getFullYear()
+const timeframe =
+  endTime === now
+    ? `${startYear} - present`
+    : startYear === endYear
+    ? startYear
+    : `${startYear} - ${endYear}`
+
+const startMonths = start.getFullYear() * 12 + start.getMonth()
+const endMonths = endTime.getFullYear() * 12 + endTime.getMonth()
+
+const monthDuration = endMonths - startMonths
+
+const years = Math.floor(monthDuration / 12)
+const months = monthDuration % 12
+
+let duration = ""
+if (years > 0) {
+  duration += `${years} year${years > 1 ? "s" : ""} `
+}
+if (months > 0 && years < 2) {
+  duration += `${months} month${months > 1 ? "s" : ""} `
+}
+---
+
+<li class="grid grid-cols-7 gap-x-2 gap-y-1">
+  <span class="col-span-2 font-semibold">{timeframe}</span>
+  <span class="col-span-3 font-bold">{title}</span>
+  <span class="col-span-2">
+    {company === "freelance" ? <i>{company}</i> : company}
+  </span>
+  <span class="col-span-2 italic text-base">{duration}</span>
+  <span class="col-span-5 text-base">{description}</span>
+</li>

@@ -1,0 +1,15 @@
+---
+export interface Props {
+  name: string
+  href: string
+  desc: string
+}
+const { name, href, desc } = Astro.props as Props
+---
+
+<li>
+  <a {href} class="font-semibold hover:underline">
+    {name}
+  </a>{" "}
+  - {desc}
+</li>

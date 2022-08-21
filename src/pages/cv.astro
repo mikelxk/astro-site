@@ -1,0 +1,91 @@
+---
+interface CVItem {
+  start: Date
+  end?: Date
+  title: string
+  company: string
+  description: string
+}
+interface CVProj {
+  desc: string
+  name: string
+  href: string
+}
+const CV: CVItem[] = [
+  {
+    start: new Date(2022, 3),
+    end: new Date(),
+    title: "Research Assistant / Development Lead",
+    company: "University of Florida",
+    description:
+      "Led the development team to build a Cloud Arduino IDE to support 200+ elementary school students in building computational models for science experiments.",
+  },
+]
+const CVProjects: CVProj[] = [
+  {
+    name: "Listen1",
+    desc: "A music application in the form of browser extension and Electron Application, built on Typescript, Vue 3, Electron and Tailwind Css. Featuring more than 2M users and downloads.",
+    href: "https://github.com/listen1/listen1_chrome_extension",
+  },
+  {
+    name:"CaSMM",
+    desc:"Computation and Science Modeling through Making Full Stack Web App",
+    href:"https://github.com/STEM-C/CaSMM",
+  }
+]
+import BaseHead from "@components/BaseHead.astro"
+import Item from "@components/CVItem.astro"
+import CVProject from "@components/CVProject.astro"
+const title = "CV - Mike"
+const description = "Mike's CV"
+const permalink = "https://mikelxk.com/cv"
+---
+
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} {permalink} />
+  </head>
+  <body>
+    <div
+      class="mx-auto max-w-screen-md px-4 sm:px-6 md:px-8 my-12 sm:my-20 md:my-32"
+    >
+      <div class="mb-24 space-y-8 md:space-y-12">
+        <h1 class="leading-tight text-gray-900 text-4xl md:text-5xl font-bold">
+          Curriculum vitae
+        </h1>
+
+        <div>
+          <h2 class="leading-tight text-3xl font-semibold">Jobs</h2>
+          <ul class="mt-6 text-lg space-y-4">
+            {CV.map(item => <Item item={item} />)}
+          </ul>
+        </div>
+        <div>
+          <h2 class="leading-tight text-3xl font-semibold">Skills</h2>
+          <ul class="mt-6 text-lg space-y-4">
+            <li>
+              Provicient in <b>JavaScript</b>,{" "}
+              <b>TypeScript</b>, <b>C++</b>, <b>HTML</b>, and{" "}
+              <b>CSS</b>. Experience with <b>Golang</b>, <b>Java</b>, and{" "}
+              <b>Python</b>.
+            </li>
+            <li>
+              Familiar with the <b>web platform</b> and{" "}
+              <b>JavaScript runtimes</b>.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="leading-tight text-3xl font-semibold">Projects</h2>
+          <ul class="mt-6 text-lg space-y-2">
+            {
+              CVProjects.map(({ name, desc, href }) => (
+                <CVProject {href} {desc} {name} />
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
