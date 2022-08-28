@@ -3,9 +3,8 @@ import BaseHead from "@components/BaseHead.astro"
 import BlogHeader from "@components/BlogHeader.astro"
 import BlogPostPreview from "@components/BlogPostPreview.astro"
 
-let title = `Blog`
-let description = `My Recollection on Coding, Design, and Life`
-let permalink = "https://mikelxk.com/blogs"
+const title = `Blog`
+const description = `My Recollection on Coding, Design, and Life`
 
 let allPosts = await Astro.glob("./blog/*.mdx")
 
@@ -18,7 +17,7 @@ allPosts = allPosts.sort(
 
 <html lang="en">
   <head>
-    <BaseHead {title} {description} {permalink} />
+    <BaseHead {title} {description} />
 
     <style>
       header {

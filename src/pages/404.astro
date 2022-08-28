@@ -1,0 +1,20 @@
+---
+import BaseHead from "@components/BaseHead.astro"
+const title = "404"
+const description = "404 Not Found"
+---
+
+<html lang="en">
+  <head>
+    <BaseHead {title} {description} />
+  </head>
+  <body>
+    <div
+      class="mx-auto my-12 max-w-screen-md px-4 sm:my-20 sm:px-6 md:my-32 md:px-8"
+    >
+      <p class="mt-10 text-lg leading-7">
+        Oops! You reached the no-man land :(
+      </p>
+    </div>
+  </body>
+</html>

@@ -7,9 +7,8 @@ import Elaina from "/Elaina.webp"
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
 // All variables are available to use in the HTML template below.
-let title = "Home | Mike.Lxk"
-let description = "Mike's blog"
-let permalink = "https://mikelxk.com/"
+const title = "Home | Mike.Lxk"
+const description = "Mike's blog"
 
 // Data Fetching: List all Markdown posts in the repo.
 
@@ -19,7 +18,7 @@ let permalink = "https://mikelxk.com/"
 
 <html lang="en">
   <head>
-    <BaseHead {title} {description} {permalink} />
+    <BaseHead {title} {description} />
   </head>
   <body>
     <div

@@ -28,22 +28,21 @@ const CVProjects: CVProj[] = [
     href: "https://github.com/listen1/listen1_chrome_extension",
   },
   {
-    name:"CaSMM",
-    desc:"Computation and Science Modeling through Making Full Stack Web App",
-    href:"https://github.com/STEM-C/CaSMM",
-  }
+    name: "CaSMM",
+    desc: "Computation and Science Modeling through Making Full Stack Web App",
+    href: "https://github.com/STEM-C/CaSMM",
+  },
 ]
 import BaseHead from "@components/BaseHead.astro"
 import Item from "@components/CVItem.astro"
 import CVProject from "@components/CVProject.astro"
 const title = "CV - Mike"
 const description = "Mike's CV"
-const permalink = "https://mikelxk.com/cv"
 ---
 
 <html lang="en">
   <head>
-    <BaseHead {title} {description} {permalink} />
+    <BaseHead {title} {description} />
   </head>
   <body>
     <div
