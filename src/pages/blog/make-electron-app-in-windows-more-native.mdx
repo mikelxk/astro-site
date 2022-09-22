@@ -1,14 +1,30 @@
 ---
-layout: '../../layouts/BlogPost.astro'
-title: 'Make electron titlebar on Windows native'
-publishDate: '17 Aug 2022'
-name: 'Mike'
-description: 'How to make electron app''s titlebar on Windows more native'
+layout: "../../layouts/BlogPost.astro"
+title: "Make electron titlebar on Windows native"
+publishDate: "17 Aug 2022"
+name: "Mike"
+description: "How to make electron app's titlebar on Windows more native"
 ---
-import Cool from '@components/Author.astro'
 
-<Cool name={frontmatter.name}/>
+import Cool from "@components/Author.astro"
+
+<Cool name={frontmatter.name} />
 
 It is no question that electron's default showing of titlebar and control buttons doesn't look good on Windows.
 
 In this article, I will introduce a new feature in Electron [Windows Controls Overlay](https://developer.mozilla.org/en-US/docs/Web/API/Window_Controls_Overlay_API) that will make the titlebar look more native.
+
+<h3 class="font-bold text-2xl">TLDR</h3>
+
+```js
+const win = new BrowserWindow({
+  titleBarStyle: 'hidden',
+  titleBarOverlay: {
+    color: '#2f3241',
+    symbolColor: '#74b1be',
+    height: 60
+  }
+})
+```
+
+To update the titlebar color, you can use the [win.setOverlayIcon(overlay, description)](https://www.electronjs.org/docs/latest/api/browser-window#winsetoverlayiconoverlay-description-windows)
