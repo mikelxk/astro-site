@@ -8,7 +8,7 @@ specifiers:
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.9
   prettier: 2.7.1
-  prettier-plugin-astro: 0.5.4
+  prettier-plugin-astro: 0.5.5
   prettier-plugin-tailwindcss: 0.1.13
   react: 18.2.0
   react-dom: 18.2.0
@@ -24,7 +24,7 @@ devDependencies:
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.9
   prettier: 2.7.1
-  prettier-plugin-astro: 0.5.4
+  prettier-plugin-astro: 0.5.5
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -57,7 +57,7 @@ packages:
       '@vscode/emmet-helper': 2.8.4
       events: 3.3.0
       prettier: 2.7.1
-      prettier-plugin-astro: 0.5.4
+      prettier-plugin-astro: 0.5.5
       source-map: 0.7.4
       vscode-css-languageservice: 6.1.1
       vscode-html-languageservice: 5.0.2
@@ -3352,8 +3352,8 @@ packages:
       which-pm: 2.0.0
     dev: true
 
-  /prettier-plugin-astro/0.5.4:
-    resolution: {integrity: sha512-ILs/WgUYtKBOn3Zh217/PwjCFtUWEKQjcCFJDevri0hGEBwEnnda9aqSLL0/nhCOmQn/UE7M9zLQvThu970ZHw==}
+  /prettier-plugin-astro/0.5.5:
+    resolution: {integrity: sha512-tEJiPjTB1eVT5Czcbkj9GoRG/oMewOnG9x737p/hJUD5QXJmn7LiYFM2dKkX0i4A1fhhsGfXT+uqsAXcw2r8JQ==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     dependencies:
       '@astrojs/compiler': 0.23.5
