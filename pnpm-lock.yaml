@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/mdx': 0.11.4
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.0.2
-  astro: 1.4.5
+  astro: 1.4.6
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
@@ -20,7 +20,7 @@ devDependencies:
   '@astrojs/mdx': 0.11.4_rollup@2.79.1
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.0.2_tailwindcss@3.1.8
-  astro: 1.4.5
+  astro: 1.4.6
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
@@ -850,8 +850,8 @@ packages:
       zod: 3.19.1
     dev: true
 
-  /astro/1.4.5:
-    resolution: {integrity: sha512-7uflNdFMsAONkEdtNRqP1XgtgdUhiiFfYd3DjtaoaskYhcnfKKYy8Lht0stIQaMtAqITIy0LLTDvDM/j8SfuUw==}
+  /astro/1.4.6:
+    resolution: {integrity: sha512-zGi3uCl+VwBYwbmccyo9M4xI68gx+M7jJdP7kFSR3UCdmDbCoCY6u85ixAAjbkMUSNsuxsrBrhH9HW/X5SGTzQ==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
