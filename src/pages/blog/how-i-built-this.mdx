@@ -1,0 +1,93 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "How I built this"
+publishDate: "8 Oct 2022"
+name: "Mike"
+description: "The reasons behind the design of this site"
+---
+
+import Cool from "@components/Author.astro"
+
+<Cool name={frontmatter.name} />
+
+As I have very vaguely talk about how this web page was built in the [hello world](/blog/helloworld) page, I thought I would go into a bit more detail here.
+
+<h3 class="font-bold text-3xl">Techniques?</h3>
+
+This site is built with [Astro](https://astro.build) and [TailwindCSS](https://tailwindcss.com).
+
+<h3 class="font-bold text-3xl">Why Astro?</h3>
+
+Astro is a static site generator, which means that it compiles your pages into static HTML files. This is great for SEO and performance.
+
+I have tried with React, Vue and Svelte, but I want to built something that's really suits for the use on the blog. I don't need dynamic data(for now) Which means that I just want plain HTML files. However, I still want to re-use components with static data.
+
+```
+static data => component => static html
+```
+
+Astro's component syntax is very similar to React's JSX, which is very easy to get started with and generate static HTML with it.
+
+For example:
+
+```jsx
+---
+const CVProjects: CVProj[] = [
+  {
+    name: "Listen1",
+    desc: "A music application in the form of browser extension and Electron Application, built on Typescript, Vue 3, Electron and Tailwind Css. Featuring more than 2M users and downloads.",
+    href: "https://github.com/listen1/listen1_chrome_extension",
+  },
+  {
+    name: "CaSMM",
+    desc: "Computation and Science Modeling through Making Full Stack Web App",
+    href: "https://github.com/STEM-C/CaSMM",
+  },
+]
+---
+<ul class="mt-6 text-lg space-y-2">
+{CVProjects.map((project) => (
+  <li>
+    <a {href} class="font-semibold hover:underline">
+        {name}
+    </a>
+  - {desc}
+</li>
+))}
+</ul>
+
+```
+
+This was inspired by [lcas.dev/cv](https://lcas.dev/cv). You can find above code [here](https://github.com/mikelxk/astro-site/blob/main/src/pages/cv.astro#L79)
+
+<h3 class="font-bold text-3xl">Why Tailwind?</h3>
+
+TailwindCSS is a utility-first CSS framework. This means that you can use classes instead of style block to style your elements and each you don't need to consider the possible side effects of styles from parent or global styles.
+
+<h3 class="font-bold text-3xl">Outcome:</h3>
+
+I'm able to generate static pages with my own components and styles. I'm also able to use the same components in different pages.
+
+```
+▶ src/pages/index.astro
+  └─ /index.html
+▶ src/pages/blogs.astro
+  └─ /blogs.html
+▶ src/pages/blog/make-electron-app-in-windows-more-native.mdx
+  └─ /blog/make-electron-app-in-windows-more-native.html
+▶ src/pages/blog/how-i-built-this.mdx
+  └─ /blog/how-i-built-this.html
+▶ src/pages/blog/helloworld.mdx
+  └─ /blog/helloworld.html
+▶ src/pages/404.astro
+  └─ /404.html
+▶ src/pages/cv.astro
+  └─ /cv.html
+```
+
+This leads to very quick response time and SEO friendly and no potential computations.
+<img src="/assets/bench.png" alt="benchmark" width="800"/>
+
+<h3 class="font-bold text-3xl">What's next?</h3>
+
+I'm planning to add more contens to my blog and also add more features to the site. Like a search bar on blogs.
