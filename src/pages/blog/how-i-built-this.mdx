@@ -85,9 +85,25 @@ I'm able to generate static pages with my own components and styles. I'm also ab
   └─ /cv.html
 ```
 
-This leads to very quick response time and SEO friendly and no potential computations.
-<img src="/assets/bench.png" alt="benchmark" width="800"/>
+Also, to accelarate the speed even more, I used Webp to compress the images.I used 
+```bash
+cwebp -q 50 -m 6 '.\Elaina.png' -o Elaina.webp
+```
+While the quality is set to 50 and use the slowest compression method, the size is reduced from 330kb to 18kb with nearly no visual loss.
+
+I would also recommend using ```-near_lossless``` to get a near lossless image.
+```bash
+cwebp -near_lossless 0 -z 9 '.\bench.png' -o bench.webp
+```
+
+The below bench image is generated with the above command.
+
+
+This leads to incredibly quick response time and SEO friendly and no potential computations.
+<img src="/assets/bench.webp" alt="benchmark" width="800"/>
 
 <h3 class="font-bold text-3xl">What's next?</h3>
 
 I'm planning to add more contens to my blog and also add more features to the site. Like a search bar on blogs.
+
+And also, manually compressing images is a bit tedious, so I'm planning to add a script to automate the process or use ``<Image>`` component from Astro to help me do that.
