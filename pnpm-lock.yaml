@@ -8,7 +8,7 @@ specifiers:
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
-  prettier-plugin-astro: 0.5.5
+  prettier-plugin-astro: 0.6.0
   prettier-plugin-tailwindcss: 0.1.13
   react: 18.2.0
   react-dom: 18.2.0
@@ -24,7 +24,7 @@ devDependencies:
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
-  prettier-plugin-astro: 0.5.5
+  prettier-plugin-astro: 0.6.0
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -48,6 +48,10 @@ packages:
 
   /@astrojs/compiler/0.27.1:
     resolution: {integrity: sha512-jdbnULQkafKuSBa9yL7amQ5Ee7WIiQSAkCCGSgWhpt7t1HvtlbviNYuNIw5ob9Ax+rA08jNQ896rHqaPB31XjA==}
+    dev: true
+
+  /@astrojs/compiler/0.27.2:
+    resolution: {integrity: sha512-VG4X87cUkcmT40HqEwShQzUgl0VSnVTszobbmnhAOkHzdoWMxhwAm61A2o5fEsv6eEK8M0lW/fGwkSofYM5GcQ==}
     dev: true
 
   /@astrojs/language-server/0.26.2:
@@ -3369,6 +3373,16 @@ packages:
       synckit: 0.7.3
     dev: true
 
+  /prettier-plugin-astro/0.6.0:
+    resolution: {integrity: sha512-xU67TzyGi1u/pwVbEh55AwoOfcOpsh9BtD2MpUAEVrViAcdrBDcmA9VN0edLgla7f2NYu8ntGakxTSrSNFv1mQ==}
+    engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
+    dependencies:
+      '@astrojs/compiler': 0.27.2
+      prettier: 2.7.1
+      sass-formatter: 0.7.5
+      synckit: 0.8.4
+    dev: true
+
   /prettier-plugin-tailwindcss/0.1.13_prettier@2.7.1:
     resolution: {integrity: sha512-/EKQURUrxLu66CMUg4+1LwGdxnz8of7IDvrSLqEtDqhLH61SAlNNUSr90UTvZaemujgl3OH/VHg+fyGltrNixw==}
     engines: {node: '>=12.17.0'}
@@ -3928,6 +3942,14 @@ packages:
   /synckit/0.7.3:
     resolution: {integrity: sha512-jNroMv7Juy+mJ/CHW5H6TzsLWpa1qck6sCHbkv8YTur+irSq2PjbvmGnm2gy14BUQ6jF33vyR4DPssHqmqsDQw==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@pkgr/utils': 2.3.1
+      tslib: 2.4.0
+    dev: true
+
+  /synckit/0.8.4:
+    resolution: {integrity: sha512-Dn2ZkzMdSX827QbowGbU/4yjWuvNaCoScLLoMo/yKbu+P4GBR6cRGKZH27k6a9bRzdqcyd1DE96pQtQ6uNkmyw==}
+    engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@pkgr/utils': 2.3.1
       tslib: 2.4.0
