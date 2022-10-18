@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/mdx': 0.11.4
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.1.0
+  '@astrojs/tailwind': 2.1.1
   astro: 1.5.0
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.10
@@ -19,7 +19,7 @@ specifiers:
 devDependencies:
   '@astrojs/mdx': 0.11.4_rollup@2.79.1
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.1.0_tailwindcss@3.1.8
+  '@astrojs/tailwind': 2.1.1_tailwindcss@3.1.8
   astro: 1.5.0
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.10
@@ -156,8 +156,8 @@ packages:
       zod: 3.19.1
     dev: true
 
-  /@astrojs/tailwind/2.1.0_tailwindcss@3.1.8:
-    resolution: {integrity: sha512-zfdprApzUJbqCNSJNEYeV7dh0ZGMdPDnROXb11ZBusu3/oVrahfP7nlmJTr05bpUdFURNIn2Z7Jkhn0nsAl8dQ==}
+  /@astrojs/tailwind/2.1.1_tailwindcss@3.1.8:
+    resolution: {integrity: sha512-Il6FODtu4AlwadleJS3VWmAOOmeCDKvAo3iof46p4iHtdeWLClyuH9kJXWrlzCS+QOfBSIfXxvwPJ3cbK5COlA==}
     peerDependencies:
       tailwindcss: ^3.0.24
     dependencies:
