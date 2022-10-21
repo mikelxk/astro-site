@@ -4,13 +4,13 @@
     "module": "ESNext",
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["src/components/*"],
+      "@components/*": ["src/components/*"]
     },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "moduleResolution": "Node16",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "types": ["astro/client"]
+    "types": ["astro/client", "@cloudflare/workers-types"]
   }
 }
