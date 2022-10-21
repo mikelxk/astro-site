@@ -5,7 +5,7 @@ specifiers:
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.1
   '@cloudflare/workers-types': 3.17.0
-  '@tailwindcss/typography': ^0.5.7
+  '@tailwindcss/typography': 0.5.7
   astro: 1.5.2
   astro-icon: 0.7.3
   astro-robots-txt: 0.3.10
