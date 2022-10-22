@@ -65,14 +65,11 @@ const CVProjects: CVProj[] = [
 ]
 ---
 <ul class="mt-6 text-lg space-y-2">
-{CVProjects.map((project) => (
-  <li>
-    <a {href} class="font-semibold hover:underline">
-        {name}
-    </a>
-  - {desc}
-</li>
-))}
+{
+  CVProjects.map(({ name, desc, href }) => (
+    <CVProject {href} {desc} {name} />
+  ))
+}
 </ul>
 
 ```
