@@ -7,7 +7,7 @@ specifiers:
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.7
   astro: 1.5.3
-  astro-icon: 0.7.3
+  astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
   prettier-plugin-astro: 0.6.0
@@ -27,7 +27,7 @@ devDependencies:
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.1
   astro: 1.5.3
-  astro-icon: 0.7.3
+  astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
   prettier-plugin-astro: 0.6.0
@@ -1088,8 +1088,8 @@ packages:
     hasBin: true
     dev: true
 
-  /astro-icon/0.7.3:
-    resolution: {integrity: sha512-choatz5A5pKFMzmGJucvtliOxYJLUQ94bjgoGJHYLQnX7FRG+YhnONoyyapno6iVFavCIytSREOy4Vcg2wMYUA==}
+  /astro-icon/0.8.0:
+    resolution: {integrity: sha512-sCzhZcl46BIyLJVg89hq5J4uQABn2psmGvK4cUaxib+M/kBI3TrPy1w3g2O5h/WcrTHLVN9LyxjgkD4lEJJFpw==}
     dependencies:
       node-fetch: 3.2.10
       resolve-pkg: 2.0.0
