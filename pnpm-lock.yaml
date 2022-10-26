@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.11.4
+  '@astrojs/mdx': 0.11.5
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.1
   '@cloudflare/workers-types': 3.18.0
@@ -21,7 +21,7 @@ specifiers:
   wrangler: 2.1.13
 
 devDependencies:
-  '@astrojs/mdx': 0.11.4_rollup@3.2.3
+  '@astrojs/mdx': 0.11.5_rollup@3.2.3
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 2.1.1_tailwindcss@3.2.1
   '@cloudflare/workers-types': 3.18.0
@@ -107,8 +107,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.11.4_rollup@3.2.3:
-    resolution: {integrity: sha512-b86Fzd87OCuYUGk7O59mwq0URqLdH40wUJC5UCkFmSquIrk8QNrZ7tdjriBfF+Wq3+2UT5JO4ahxIuP6N3cczQ==}
+  /@astrojs/mdx/0.11.5_rollup@3.2.3:
+    resolution: {integrity: sha512-zSlMX5unK4aIfg6NeYzlw0erLtvKpk71FWo11jYsMmmajYSU2JUk6maKWewERXGuVoY2YpC4W4Fl5dPn6jYGdQ==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
       '@astrojs/prism': 1.0.1
