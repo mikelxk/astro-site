@@ -6,7 +6,7 @@ specifiers:
   '@astrojs/tailwind': 2.1.1
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.7
-  astro: 1.5.3
+  astro: 1.6.0
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
@@ -26,7 +26,7 @@ devDependencies:
   '@astrojs/tailwind': 2.1.1_tailwindcss@3.2.1
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.1
-  astro: 1.5.3
+  astro: 1.6.0
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
@@ -1104,8 +1104,8 @@ packages:
       zod: 3.19.1
     dev: true
 
-  /astro/1.5.3:
-    resolution: {integrity: sha512-LvIQPmLDAgKJNFyftDHj3f7x+pC4xQPo91YjPrr7s22hJpsUy/TgmRGn0vjNwJ27Qs6woQoylGkcgT9oqgchzg==}
+  /astro/1.6.0:
+    resolution: {integrity: sha512-e3UVJkhMiCQPd16w9aCxfMVEj/vs07qcLOWgWsA27BepiiYHvYebn+mfnJc8C7WeZyuTm9IcmwBtsZPoIJyFLA==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -1168,6 +1168,7 @@ packages:
       unist-util-visit: 4.1.1
       vfile: 5.3.5
       vite: 3.1.8
+      vitefu: 0.1.0_vite@3.1.8
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
@@ -4931,6 +4932,18 @@ packages:
       rollup: 2.78.1
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /vitefu/0.1.0_vite@3.1.8:
+    resolution: {integrity: sha512-5MQSHP9yr0HIve8q4XNb7QXfO1P4tzZDZP99qH0FM5ClcwYddeGXRDQ4TQYRUeXLjZ+vLecirHtGNpwFFUF7sw==}
+    peerDependencies:
+      vite: ^3.0.0
+    peerDependenciesMeta:
+      vite:
+        optional: true
+    dependencies:
+      import-meta-resolve: 2.1.0
+      vite: 3.1.8
     dev: true
 
   /vscode-css-languageservice/6.1.1:
