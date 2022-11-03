@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/mdx': 0.11.5
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.1.1
+  '@astrojs/tailwind': 2.1.2
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.7
   astro: 1.6.2
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@astrojs/mdx': 0.11.5_rollup@3.2.5
   '@astrojs/sitemap': 1.0.0
-  '@astrojs/tailwind': 2.1.1_tailwindcss@3.2.1
+  '@astrojs/tailwind': 2.1.2_tailwindcss@3.2.1
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.7_tailwindcss@3.2.1
   astro: 1.6.2
@@ -164,8 +164,8 @@ packages:
       zod: 3.19.1
     dev: true
 
-  /@astrojs/tailwind/2.1.1_tailwindcss@3.2.1:
-    resolution: {integrity: sha512-Il6FODtu4AlwadleJS3VWmAOOmeCDKvAo3iof46p4iHtdeWLClyuH9kJXWrlzCS+QOfBSIfXxvwPJ3cbK5COlA==}
+  /@astrojs/tailwind/2.1.2_tailwindcss@3.2.1:
+    resolution: {integrity: sha512-nIrlT+WWp/Wv2VQ29Nvncq608E+j3qB9k1f7yiAjY2ijxizZo4OnQzdRPQcIjIZHL5YxPtzbcoSP2u3v+Domqw==}
     peerDependencies:
       tailwindcss: ^3.0.24
     dependencies:
