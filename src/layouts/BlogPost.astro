@@ -17,7 +17,7 @@ const { title, description, publishDate, name, heroImage, permalink, alt } =
 
   <body>
     <BlogHeader />
-    <div class="wrapper prose dark:prose-invert">
+    <div class="wrapper prose dark:prose-invert prose-img:rounded-lg">
       <BlogPost {title} author={name} {heroImage} {publishDate} {alt}>
         <slot />
       </BlogPost>

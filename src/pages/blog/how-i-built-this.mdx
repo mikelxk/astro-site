@@ -16,19 +16,19 @@ As I have vaguely talk about how this web page was built in the [previous](/blog
 
 I have tried with complex framework like Hexo and Gatsby or simple frameworks like React, Vue and Svelte to build my blog, but I want to build something that's really suits for my use. Here are my requirements:
 
-* Completly free (I'm just a student).
-* Fast.
-  + Client Side: I don't need a JS framework to build a blog on the client side, that takes time and resources.
-  + Server Side: I want it to be equally fast around the world. Something delivers on Edge framework or CDN.
-  + Build Fast: I don't want to wait for a long time to build the site.
-* Fully customizable
-  + Use multiple themes and even multiple frameworks in one application.
-  + Use and re-use my own components.
-* Simple.
-  + I don't want to learn a new language or framework.
-  + I don't want to use a complex build system.
-  + I don't want to use a complex routing system.
-* SEO friendly 
+- Completly free (I'm just a student).
+- Fast.
+  - Client Side: I don't need a JS framework to build a blog on the client side, that takes time and resources.
+  - Server Side: I want it to be equally fast around the world. Something delivers on Edge framework or CDN.
+  - Build Fast: I don't want to wait for a long time to build the site.
+- Fully customizable
+  - Use multiple themes and even multiple frameworks in one application.
+  - Use and re-use my own components.
+- Simple.
+  - I don't want to learn a new language or framework.
+  - I don't want to use a complex build system.
+  - I don't want to use a complex routing system.
+- SEO friendly
 
 ## Techniques?
 
@@ -40,9 +40,11 @@ Astro is a static site generator, which means that it compiles your pages into s
 
 I don't need dynamic data(for now) Which means that I just want plain HTML files. However, I still want to re-use components with static data.
 Something like
+
 ```
 static data => component => static html
 ```
+
 Astro also has a great support for [Markdown](https://www.markdownguide.org) and [MDX](https://mdxjs.com) which is great for me as I write my blog in Markdown.
 
 Astro's component syntax is very similar to React's JSX, which is very easy to get started with and generate static HTML with it.
@@ -113,32 +115,36 @@ I'm able to generate static pages with my own components and styles. I'm also ab
 
 ## Performance
 
-Also, to accelarate the speed even more, I used Webp to compress the images.I used 
+Also, to accelarate the speed even more, I used Webp to compress the images.I used
+
 ```bash
 cwebp -q 50 -m 6 '.\Elaina.png' -o Elaina.webp
 ```
+
 While the quality is set to 50 and use the slowest compression method, the size is reduced from 330kb to 18kb with nearly no visual loss.
 
-I would also recommend using ```-near_lossless``` to get a near lossless image.
+I would also recommend using `-near_lossless` to get a near lossless image.
+
 ```bash
 cwebp -near_lossless 0 -z 9 '.\bench.png' -o bench.webp
 ```
 
 The below bench image is generated with the above command.
 
-
 This leads to incredibly quick response time and SEO friendly and no potential computations.
-<img src="/assets/bench.webp" alt="benchmark" width="800" style="border-radius:10px"/>
+
+<img src="/assets/bench.webp" alt="benchmark" width="800" />
 
 ## What's next?
 
 I'm planning to add more contens to my blog and also add more features to the site. Like a search bar on blogs.
 
-And also, manually compressing images is a bit tedious, so I'm planning to add a script to automate the process or use ``<Image>`` component from Astro to help me do that.
+And also, manually compressing images is a bit tedious, so I'm planning to add a script to automate the process or use `<Image>` component from Astro to help me do that.
 
 I'm also planning to add a comment system with [Cloudflare Pages Function](https://developers.cloudflare.com/pages/platform/functions/), [Workers KV](https://developers.cloudflare.com/workers/learning/how-kv-works/) and [AWS DynamoDB](https://aws.amazon.com/dynamodb/) to my site as I mentioned above. Stay tuned!
 
 ## Sources
+
 You can find the link to the blog source code [here](https://github.com/mikelxk/astro-site)
 
 The styling of the blog is inspired by [lcas.dev](https://lcas.dev)

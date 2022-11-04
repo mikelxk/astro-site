@@ -90,7 +90,7 @@ code {
   color: inherit;
   padding: var(--padding-block) var(--padding-inline);
   margin: calc(var(--padding-block) * -1) -0.125em;
-  border-radius: var(--border-radius);
+  border-radius: 8px;
   word-break: break-word;
 }
 
