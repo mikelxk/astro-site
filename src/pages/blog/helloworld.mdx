@@ -1,13 +1,14 @@
 ---
-layout: '../../layouts/BlogPost.astro'
-title: 'Hello world!'
-publishDate: '13 Apr 2022'
-name: 'Mike'
-description: 'Just a Hello World Post!'
+layout: "../../layouts/BlogPost.astro"
+title: "Hello world!"
+publishDate: "13 Apr 2022"
+name: "Mike"
+description: "Just a Hello World Post!"
 ---
-import Cool from '@components/Author.astro'
 
-<Cool name={frontmatter.name}/>
+import Cool from "@components/Author.astro"
+
+<Cool name={frontmatter.name} />
 
 My personal website's tech stack has gone though a lot,
 from Hexo to Gatsby to Svelte and eventually to [Astro](https://astro.build).
@@ -19,9 +20,8 @@ It even includes built-in support on markdown and scripts.
 ```javascript
 // Example JavaScript
 
-const x = 42;
+const x = 42
 function returnAnswer() {
-  return x;
+  return x
 }
-
 ```
