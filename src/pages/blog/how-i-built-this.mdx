@@ -131,9 +131,15 @@ cwebp -near_lossless 0 -z 9 '.\bench.png' -o bench.webp
 
 The below bench image is generated with the above command.
 
+ALso, to make sure the image won't block the loading process the images are lazy loaded.
+
+```html
+<img src="/assets/bench.webp" alt="benchmark" width="800" load="lazy" />
+```
+
 This leads to incredibly quick response time and SEO friendly and no potential computations.
 
-<img src="/assets/bench.webp" alt="benchmark" width="800" />
+<img src="/assets/bench.webp" alt="benchmark" width="800" load="lazy" />
 
 ## What's next?
 
@@ -145,6 +151,6 @@ I'm also planning to add a comment system with [Cloudflare Pages Function](https
 
 ## Sources
 
-You can find the link to the blog source code [here](https://github.com/mikelxk/astro-site)
+[blog source code](https://github.com/mikelxk/astro-site)
 
 The styling of the blog is inspired by [lcas.dev](https://lcas.dev)
