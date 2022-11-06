@@ -6,7 +6,12 @@ import { defineConfig } from "astro/config"
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), mdx(), robotsTxt(), sitemap()],
+  integrations: [
+    tailwind({ config: { applyBaseStyles: false } }),
+    mdx(),
+    robotsTxt(),
+    sitemap(),
+  ],
   site: "https://mikelxk.com",
   vite: {
     ssr: {
