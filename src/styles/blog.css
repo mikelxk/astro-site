@@ -75,13 +75,7 @@
   --theme-code-bg: var(--color-gray-900);
 }
 
-/* small,
-.text_small {
-  font-size: 0.833rem;
-} */
-
 code {
-  --border-radius: 3px;
   --padding-block: 0.2rem;
   --padding-inline: 0.33rem;
 

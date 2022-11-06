@@ -1,6 +1,7 @@
 ---
+import type { MDXInstance } from 'astro';
 export interface Props {
-  post: any
+  post: MDXInstance<Record<string, any>>
 }
 
 const { post } = Astro.props
