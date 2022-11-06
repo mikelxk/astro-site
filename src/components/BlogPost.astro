@@ -14,7 +14,7 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
 <div class="layout">
   <article class="content">
     <div>
-      <header>
+      <header class="flex flex-col text-center items-center justify-center pb-8 mb-8">
         {
           heroImage && (
             <img
@@ -52,13 +52,6 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
   }
 
   header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
     border-bottom: 4px solid var(--theme-divider);
   }
 
