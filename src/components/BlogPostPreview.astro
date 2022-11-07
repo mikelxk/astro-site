@@ -10,8 +10,8 @@ const { post } = Astro.props
 <article
   class="post-preview border-b border-solid border-[color:var(--theme-divider)] pb-8 mb-8"
 >
-  <header class="items-start flex flex-col justify-center text-left pb-8">
-    <p class="publish-date text-[1.25rem] m-0">
+  <header class="items-start flex flex-col justify-center text-left pb-6">
+    <p class="publish-date text-sm font-medium m-0">
       {post.frontmatter.publishDate}
     </p>
     <a href={post.url}
@@ -21,9 +21,3 @@ const { post } = Astro.props
   <p>{post.frontmatter.description}</p>
   <a class="text-[#92a8d1]" href={post.url}>Read more</a>
 </article>
-
-<style>
-  .content :global(main > * + *) {
-    margin-top: 1rem;
-  }
-</style>
