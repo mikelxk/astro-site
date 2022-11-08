@@ -6,7 +6,7 @@ specifiers:
   '@astrojs/tailwind': 2.1.2
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.8
-  astro: 1.6.4
+  astro: 1.6.5
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
@@ -26,7 +26,7 @@ devDependencies:
   '@astrojs/tailwind': 2.1.2_tailwindcss@3.2.2
   '@cloudflare/workers-types': 3.18.0
   '@tailwindcss/typography': 0.5.8_tailwindcss@3.2.2
-  astro: 1.6.4
+  astro: 1.6.5
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.7.1
@@ -1104,8 +1104,8 @@ packages:
       zod: 3.19.1
     dev: true
 
-  /astro/1.6.4:
-    resolution: {integrity: sha512-4Yi6fonZK/t8I1BdZ2YaTtSKUSeB8RoikDDssqkiO6j2BAfK4HOhRk70PrrkKyY5gK6VCe/Nao8ABq3GZfxm9g==}
+  /astro/1.6.5:
+    resolution: {integrity: sha512-PBjtMJeCRTkvG2ExMpfDUEc7FbwpJ/pxixe7Kt1Z9dfggofGLXnNa5JxzvacuotI1u35wb9nwQ7aI4Uyk5Ellg==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
