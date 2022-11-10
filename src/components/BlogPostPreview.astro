@@ -15,7 +15,7 @@ const { post } = Astro.props
       {post.frontmatter.publishDate}
     </p>
     <a href={post.url}
-      ><h1 class="font-bold text-[2.25rem] m-0">{post.frontmatter.title}</h1>
+      ><h1 class="font-bold text-[2.25rem] m-0 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">{post.frontmatter.title}</h1>
     </a>
   </header>
   <p>{post.frontmatter.description}</p>
