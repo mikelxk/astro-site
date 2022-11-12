@@ -1,0 +1,37 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Configuring MPV"
+publishDate: "12 Nov 2022"
+name: "Mike"
+description: "My configuration on mpv"
+---
+
+import Cool from "@components/Author.astro"
+
+<Cool name={frontmatter.name} />
+
+
+## What is mpv?
+
+mpv is a media player based on MPlayer and mplayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types. You can download it from [here](https://mpv.io/installation/).
+
+## Why mpv?
+
+I have tried with VLC, PotPlayer, MPC-HC, and even mpv before. I found that mpv is the best media player for me. It's lightweight, fast, and has a lot of features.
+
+## My configuration
+
+I use mpv on Windows, so I will show you my configuration on Windows.
+
+```conf
+profile=gpu-hq
+hwdec=nvdec
+gpu-api=vulkan
+icc-profile-auto
+blend-subtitles=video
+scale=ewa_lanczossharp
+video-sync=display-resample
+interpolation
+tscale=oversample
+vo=gpu-next
+```
