@@ -15,6 +15,12 @@
     @apply mx-auto w-full max-w-[65em] px-8;
   }
 }
+.prose :where(code):not(:where([class~="not-prose"] *))::before {
+  content: "";
+}
+.prose :where(code):not(:where([class~="not-prose"] *))::after {
+  content: "";
+}
 :root {
   --color-white: #fff;
   --color-black: #000014;
