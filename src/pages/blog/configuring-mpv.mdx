@@ -29,16 +29,17 @@ vo=gpu-next # enable playback for dolby vision
 hwdec=nvdec
 gpu-api=vulkan
 
-scale=ewa_lanczossharp
+scale=ewa_lanczos
+scale-blur=0.981251 # use lanczos sharp
 video-sync=display-resample
 interpolation
 tscale=oversample
 
 sub-auto=fuzzy
 blend-subtitles=video
-save-position-on-quit
 audio-exclusive=yes
 target-colorspace-hint=yes
+slang=chi, eng
 
 [SDR]
 profile-cond=p["video-params/primaries"] and p["video-params/primaries"] ~= "bt.2020"
