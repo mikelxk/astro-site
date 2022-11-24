@@ -1,5 +1,5 @@
 ---
-import type { MDXInstance } from 'astro';
+import type { MDXInstance } from "astro"
 export interface Props {
   post: MDXInstance<Record<string, any>>
 }
@@ -8,14 +8,18 @@ const { post } = Astro.props
 ---
 
 <article
-  class="post-preview border-b border-solid border-[color:var(--theme-divider)] pb-4 mb-8"
+  class="post-preview mb-8 border-b border-solid border-[color:var(--theme-divider)] pb-4"
 >
-  <header class="items-start flex flex-col justify-center text-left pb-4">
-    <p class="publish-date text-sm font-medium m-0">
+  <header class="flex flex-col items-start justify-center pb-4 text-left">
+    <p class="publish-date m-0 text-sm font-medium">
       {post.frontmatter.publishDate}
     </p>
     <a href={post.url}
-      ><h1 class="font-bold text-[2.25rem] m-0 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">{post.frontmatter.title}</h1>
+      ><h1
+        class="m-0 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-[2.25rem] font-bold text-transparent"
+      >
+        {post.frontmatter.title}
+      </h1>
     </a>
   </header>
   <p>{post.frontmatter.description}</p>

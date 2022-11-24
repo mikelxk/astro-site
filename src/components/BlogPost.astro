@@ -14,7 +14,9 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
 <div class="layout">
   <article class="content mb-32">
     <div>
-      <header class="flex flex-col text-center items-center justify-center pb-8 mb-8 border-b border-[var(--theme-divider)]">
+      <header
+        class="mb-8 flex flex-col items-center justify-center border-b border-[var(--theme-divider)] pb-8 text-center"
+      >
         {
           heroImage && (
             <img
@@ -27,8 +29,14 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
             />
           )
         }
-        <p class="publish-date m-0 text-[var(--theme-text-lighter)]">{publishDate}</p>
-        <h1 class="title m-0 text-5xl leading-snug font-extrabold bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent">{title}</h1>
+        <p class="publish-date m-0 text-[var(--theme-text-lighter)]">
+          {publishDate}
+        </p>
+        <h1
+          class="title m-0 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-5xl font-extrabold leading-snug text-transparent"
+        >
+          {title}
+        </h1>
         <Author name="@mikelxk" href="https://github.com/mikelxk" />
       </header>
       <main>
