@@ -10,7 +10,7 @@ specifiers:
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.8.1
-  prettier-plugin-astro: 0.7.0
+  prettier-plugin-astro: 0.7.1
   prettier-plugin-tailwindcss: 0.2.1
   react: 18.2.0
   react-dom: 18.2.0
@@ -30,7 +30,7 @@ devDependencies:
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
   prettier: 2.8.1
-  prettier-plugin-astro: 0.7.0
+  prettier-plugin-astro: 0.7.1
   prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -50,12 +50,12 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@astrojs/compiler/0.29.4:
-    resolution: {integrity: sha512-MN0+AcKeZXXpC8AiEiYQljR5IU4LUgGU7NjGvEOXQ419PfRybUd1op4KoilkA1L0QEVYSoePcPnUVDoWN4HpYQ==}
-    dev: true
-
   /@astrojs/compiler/0.31.0:
     resolution: {integrity: sha512-V8/Re/wXgXTZzpfWs4KZBLU5dRhnO6kSd4e3vObGuj+HFGHjaD11wws1zvaC9cXLQyQsM5CSrGagFGYlRZKvVQ==}
+    dev: true
+
+  /@astrojs/compiler/0.31.3:
+    resolution: {integrity: sha512-WbA05QH5xkdaJ3XtzDuYOjtqsip2InW5rk156sSdaHs5qN2NroUHbzWZthHJwmNAAjQSGXVIj+O6jQj81zzX/Q==}
     dev: true
 
   /@astrojs/language-server/0.28.3:
@@ -65,7 +65,7 @@ packages:
       '@vscode/emmet-helper': 2.8.4
       events: 3.3.0
       prettier: 2.8.1
-      prettier-plugin-astro: 0.7.0
+      prettier-plugin-astro: 0.7.1
       source-map: 0.7.4
       vscode-css-languageservice: 6.1.1
       vscode-html-languageservice: 5.0.2
@@ -4003,11 +4003,12 @@ packages:
       which-pm: 2.0.0
     dev: true
 
-  /prettier-plugin-astro/0.7.0:
-    resolution: {integrity: sha512-ehCUx7MqHWvkHwUmxxAWLsL35pFaCTM5YXQ8xjG/1W6dY2yBhvEks+2aCfjeI5zmMrZNCXkiMQtpznSlLSLrxw==}
-    engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
+  /prettier-plugin-astro/0.7.1:
+    resolution: {integrity: sha512-ySeyXHIXNZpbqZCcj8eoWl6z2UDHYl6DPgN7z9E1HElG8aVlC2WQNjfcpcSBuF4jwwo+HHi44pun/Hlr+h8OsA==}
+    engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
+    requiresBuild: true
     dependencies:
-      '@astrojs/compiler': 0.29.4
+      '@astrojs/compiler': 0.31.3
       prettier: 2.8.1
       sass-formatter: 0.7.5
       synckit: 0.8.4
