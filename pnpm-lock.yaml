@@ -9,7 +9,7 @@ specifiers:
   astro: 1.9.1
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
-  prettier: 2.8.1
+  prettier: 2.8.2
   prettier-plugin-astro: 0.7.2
   prettier-plugin-tailwindcss: 0.2.1
   react: 18.2.0
@@ -29,9 +29,9 @@ devDependencies:
   astro: 1.9.1
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.10
-  prettier: 2.8.1
+  prettier: 2.8.2
   prettier-plugin-astro: 0.7.2
-  prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.1
+  prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.2
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   realm-web: 2.0.0
@@ -60,7 +60,7 @@ packages:
     dependencies:
       '@vscode/emmet-helper': 2.8.4
       events: 3.3.0
-      prettier: 2.8.1
+      prettier: 2.8.2
       prettier-plugin-astro: 0.7.2
       source-map: 0.7.4
       vscode-css-languageservice: 6.1.1
@@ -4008,22 +4008,22 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
     dependencies:
       '@astrojs/compiler': 0.31.3
-      prettier: 2.8.1
+      prettier: 2.8.2
       sass-formatter: 0.7.5
       synckit: 0.8.4
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.1:
+  /prettier-plugin-tailwindcss/0.2.1_prettier@2.8.2:
     resolution: {integrity: sha512-aIO8IguumORyRsmT+E7JfJ3A9FEoyhqZR7Au7TBOege3VZkgMvHJMkufeYp4zjnDK2iq4ktkvGMNOQR9T8lisQ==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       prettier: '>=2.2.0'
     dependencies:
-      prettier: 2.8.1
+      prettier: 2.8.2
     dev: true
 
-  /prettier/2.8.1:
-    resolution: {integrity: sha512-lqGoSJBQNJidqCHE80vqZJHWHRFoNYsSpP9AjFhlhi9ODCJA541svILes/+/1GM3VaL/abZi7cpFzOpdR9UPKg==}
+  /prettier/2.8.2:
+    resolution: {integrity: sha512-BtRV9BcncDyI2tsuS19zzhzoxD8Dh8LiCx7j7tHzrkz8GFXAexeWFdi22mjE1d16dftH2qNaytVxqiRTGlMfpw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
