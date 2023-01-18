@@ -30,21 +30,23 @@ hwdec=nvdec
 gpu-api=vulkan
 
 scale=ewa_lanczos
-scale-blur=0.981251 # use lanczos sharp
+scale-blur=0.981251
 video-sync=display-resample
-interpolation
-tscale=oversample
+interpolation=yes
+tscale=sphinx
+tscale-blur=0.6991556596428412
 
 sub-auto=fuzzy
 blend-subtitles=video
 audio-exclusive=yes
 target-colorspace-hint=yes
-slang=chi, eng
+slang=chi, zh-Hans, eng
 
 [SDR]
 profile-cond=p["video-params/primaries"] and p["video-params/primaries"] ~= "bt.2020"
 icc-profile-auto=yes
-vf-append=format=gamma=gamma2.2 # use gamma 2.2 for SDR
+vf=format:gamma=gamma2.2 # use gamma 2.2 for SDR
+# glsl-shaders="~~/shaders/Anime4K_Restore_CNN_UL.glsl"
 
 [HDR]
 profile-cond=p["video-params/primaries"] == "bt.2020"
