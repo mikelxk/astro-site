@@ -20,6 +20,9 @@ export default defineConfig({
   },
   build: {
     format: "file",
+    build: {
+      assets: 'assets'
+    }
   },
   markdown: {
     syntaxHighlight: "prism",
