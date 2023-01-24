@@ -12,7 +12,7 @@ export default defineConfig({
     robotsTxt(),
     sitemap(),
   ],
-  site: "https://mikelxk.com",
+  site: "https://mikelxk.com/",
   vite: {
     ssr: {
       external: ["svgo"],
