@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/mdx': 0.15.0
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 3.0.0
-  '@cloudflare/workers-types': 4.20221111.1
+  '@cloudflare/workers-types': 4.20230115.0
   '@tailwindcss/typography': 0.5.9
   astro: 2.0.1
   astro-icon: 0.8.0
@@ -24,7 +24,7 @@ devDependencies:
   '@astrojs/mdx': 0.15.0_astro@2.0.1
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 3.0.0_bgk6wvini4j5nfa7w2itosrqne
-  '@cloudflare/workers-types': 4.20221111.1
+  '@cloudflare/workers-types': 4.20230115.0
   '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.4
   astro: 2.0.1
   astro-icon: 0.8.0
@@ -414,8 +414,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/workers-types/4.20221111.1:
-    resolution: {integrity: sha512-BNV2wN8V6Zduvo7UzxcdjBbLQ906D2KhS804PDufLgx/sanGJCHVJMOIaLvS/b61JKtot1U7P/l1fjrjZ7/E3A==}
+  /@cloudflare/workers-types/4.20230115.0:
+    resolution: {integrity: sha512-GPJEiO8AFN+jUpA+DHJ1qdVmk4s/hq8JYKjOV/+U7avGquQbVnj905+Kg6uAEfrq16muwmRKl+XJGqsvlBlDNg==}
     dev: true
 
   /@emmetio/abbreviation/2.2.3:
