@@ -10,7 +10,7 @@ specifiers:
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.11
   prettier: 2.8.3
-  prettier-plugin-astro: 0.7.2
+  prettier-plugin-astro: 0.8.0
   prettier-plugin-tailwindcss: 0.2.2
   react: 18.2.0
   react-dom: 18.2.0
@@ -30,8 +30,8 @@ devDependencies:
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.11
   prettier: 2.8.3
-  prettier-plugin-astro: 0.7.2
-  prettier-plugin-tailwindcss: 0.2.2_dz7tw5xvmurghik32njsgkfs6a
+  prettier-plugin-astro: 0.8.0
+  prettier-plugin-tailwindcss: 0.2.2_s2resyd53c3nawyksvkzb3naxm
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   realm-web: 2.0.0
@@ -3662,7 +3662,17 @@ packages:
       synckit: 0.8.4
     dev: true
 
-  /prettier-plugin-tailwindcss/0.2.2_dz7tw5xvmurghik32njsgkfs6a:
+  /prettier-plugin-astro/0.8.0:
+    resolution: {integrity: sha512-kt9wk33J7HvFGwFaHb8piwy4zbUmabC8Nu+qCw493jhe96YkpjscqGBPy4nJ9TPy9pd7+kEx1zM81rp+MIdrXg==}
+    engines: {node: ^14.15.0 || >=16.0.0, pnpm: '>=7.14.0'}
+    dependencies:
+      '@astrojs/compiler': 1.0.1
+      prettier: 2.8.3
+      sass-formatter: 0.7.5
+      synckit: 0.8.4
+    dev: true
+
+  /prettier-plugin-tailwindcss/0.2.2_s2resyd53c3nawyksvkzb3naxm:
     resolution: {integrity: sha512-5RjUbWRe305pUpc48MosoIp6uxZvZxrM6GyOgsbGLTce+ehePKNm7ziW2dLG2air9aXbGuXlHVSQQw4Lbosq3w==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
@@ -3712,7 +3722,7 @@ packages:
         optional: true
     dependencies:
       prettier: 2.8.3
-      prettier-plugin-astro: 0.7.2
+      prettier-plugin-astro: 0.8.0
     dev: true
 
   /prettier/2.8.3:
