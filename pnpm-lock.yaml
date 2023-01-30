@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/mdx': 0.15.1
+  '@astrojs/mdx': 0.15.2
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 3.0.0
   '@cloudflare/workers-types': 4.20230115.0
@@ -21,7 +21,7 @@ specifiers:
   wrangler: 2.8.1
 
 devDependencies:
-  '@astrojs/mdx': 0.15.1_astro@2.0.2
+  '@astrojs/mdx': 0.15.2_astro@2.0.2
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 3.0.0_uhsc6pehih5huiqhsy5i7sy5um
   '@cloudflare/workers-types': 4.20230115.0
@@ -99,8 +99,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx/0.15.1_astro@2.0.2:
-    resolution: {integrity: sha512-RzrJ2vq+XnAtqvhRdIeONYBINFEWetXnfAqiB2V4s/FB/jd+8y9fSOtBtGpWCGpRZfidtMYPIiQ/damz0yJxVA==}
+  /@astrojs/mdx/0.15.2_astro@2.0.2:
+    resolution: {integrity: sha512-vrv1fw5kLZqaV0FHr6IKR46Rq5DENHhqUVZIXpAbvpRG/qXxHpg9QVN9ji+3bgLDKvG2Yz4wi8CYvSjmUtJHBQ==}
     engines: {node: '>=16.12.0'}
     dependencies:
       '@astrojs/markdown-remark': 2.0.1_astro@2.0.2
