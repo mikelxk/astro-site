@@ -16,16 +16,16 @@ specifiers:
   react-dom: 18.2.0
   realm-web: 2.0.0
   svgo: '2.8'
-  tailwindcss: 3.2.4
+  tailwindcss: 3.2.6
   typescript: 4.9.5
   wrangler: 2.9.1
 
 devDependencies:
   '@astrojs/mdx': 0.16.0_astro@2.0.8
   '@astrojs/sitemap': 1.0.1
-  '@astrojs/tailwind': 3.0.1_nzhaul33q55wvpvnukdgx72gje
+  '@astrojs/tailwind': 3.0.1_7ey3tu23aty2if6vwttfsa7ree
   '@cloudflare/workers-types': 4.20230115.0
-  '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.4
+  '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.6
   astro: 2.0.8
   astro-icon: 0.8.0
   astro-robots-txt: 0.3.11
@@ -36,7 +36,7 @@ devDependencies:
   react-dom: 18.2.0_react@18.2.0
   realm-web: 2.0.0
   svgo: 2.8.0
-  tailwindcss: 3.2.4
+  tailwindcss: 3.2.6
   typescript: 4.9.5
   wrangler: 2.9.1
 
@@ -144,7 +144,7 @@ packages:
       zod: 3.20.2
     dev: true
 
-  /@astrojs/tailwind/3.0.1_nzhaul33q55wvpvnukdgx72gje:
+  /@astrojs/tailwind/3.0.1_7ey3tu23aty2if6vwttfsa7ree:
     resolution: {integrity: sha512-QSYh/xmz454j1yZU9rjw2J24PpH7j3h2ClesqMaAniOtcuL8RfP7KYCnCrk01xvjwqqO+QBpZNDD/SUhHNtFFg==}
     peerDependencies:
       astro: ^2.0.4
@@ -155,7 +155,7 @@ packages:
       autoprefixer: 10.4.13_postcss@8.4.21
       postcss: 8.4.21
       postcss-load-config: 4.0.1_postcss@8.4.21
-      tailwindcss: 3.2.4
+      tailwindcss: 3.2.6
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -1164,7 +1164,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@tailwindcss/typography/0.5.9_tailwindcss@3.2.4:
+  /@tailwindcss/typography/0.5.9_tailwindcss@3.2.6:
     resolution: {integrity: sha512-t8Sg3DyynFysV9f4JDOVISGsjazNb48AeIYQwcL+Bsq5uf4RYL75C1giZ43KISjeDGBaTN3Kxh7Xj/vRSMJUUg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -1173,7 +1173,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.2.4
+      tailwindcss: 3.2.6
     dev: true
 
   /@trysound/sax/0.2.0:
@@ -4318,8 +4318,8 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /tailwindcss/3.2.4:
-    resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
+  /tailwindcss/3.2.6:
+    resolution: {integrity: sha512-BfgQWZrtqowOQMC2bwaSNe7xcIjdDEgixWGYOd6AL0CbKHJlvhfdbINeAW76l1sO+1ov/MJ93ODJ9yluRituIw==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
