@@ -10,7 +10,7 @@
     "format:astro": "pnpm prettier -w src/*/*.astro --plugin-search-dir=."
   },
   "devDependencies": {
-    "@astrojs/mdx": "0.16.2",
+    "@astrojs/mdx": "0.17.0",
     "@astrojs/sitemap": "1.0.1",
     "@astrojs/tailwind": "3.0.1",
     "@cloudflare/workers-types": "4.20230214.0",
