@@ -3,13 +3,13 @@ lockfileVersion: '6.0'
 devDependencies:
   '@astrojs/mdx':
     specifier: 0.17.2
-    version: 0.17.2(astro@2.0.15)
+    version: 0.17.2(astro@2.0.16)
   '@astrojs/sitemap':
     specifier: 1.1.0
     version: 1.1.0
   '@astrojs/tailwind':
     specifier: 3.0.1
-    version: 3.0.1(astro@2.0.15)(tailwindcss@3.2.7)
+    version: 3.0.1(astro@2.0.16)(tailwindcss@3.2.7)
   '@cloudflare/workers-types':
     specifier: 4.20230221.0
     version: 4.20230221.0
@@ -17,8 +17,8 @@ devDependencies:
     specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.2.7)
   astro:
-    specifier: 2.0.15
-    version: 2.0.15
+    specifier: 2.0.16
+    version: 2.0.16
   astro-icon:
     specifier: 0.8.0
     version: 0.8.0
@@ -96,13 +96,13 @@ packages:
       vscode-uri: 3.0.7
     dev: true
 
-  /@astrojs/markdown-remark@2.0.1(astro@2.0.15):
+  /@astrojs/markdown-remark@2.0.1(astro@2.0.16):
     resolution: {integrity: sha512-xQF1rXGJN18m+zZucwRRtmNehuhPMMhZhi6HWKrtpEAKnHSPk8lqf1GXgKH7/Sypglu8ivdECZ+EGs6kOYVasQ==}
     peerDependencies:
       astro: ^2.0.2
     dependencies:
       '@astrojs/prism': 2.0.0
-      astro: 2.0.15
+      astro: 2.0.16
       github-slugger: 1.5.0
       import-meta-resolve: 2.2.1
       rehype-raw: 6.1.1
@@ -119,11 +119,11 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/mdx@0.17.2(astro@2.0.15):
+  /@astrojs/mdx@0.17.2(astro@2.0.16):
     resolution: {integrity: sha512-mol57cw1jJMcQgKMRGn7p6cewajq6JTNtqj5aAZgROWam/phVDSOCbXj/WU3O9+3qFnyKtpczoufQKwJTQltAw==}
     engines: {node: '>=16.12.0'}
     dependencies:
-      '@astrojs/markdown-remark': 2.0.1(astro@2.0.15)
+      '@astrojs/markdown-remark': 2.0.1(astro@2.0.16)
       '@astrojs/prism': 2.0.0
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/rollup': 2.3.0
@@ -160,14 +160,14 @@ packages:
       zod: 3.20.6
     dev: true
 
-  /@astrojs/tailwind@3.0.1(astro@2.0.15)(tailwindcss@3.2.7):
+  /@astrojs/tailwind@3.0.1(astro@2.0.16)(tailwindcss@3.2.7):
     resolution: {integrity: sha512-QSYh/xmz454j1yZU9rjw2J24PpH7j3h2ClesqMaAniOtcuL8RfP7KYCnCrk01xvjwqqO+QBpZNDD/SUhHNtFFg==}
     peerDependencies:
       astro: ^2.0.4
       tailwindcss: ^3.0.24
     dependencies:
       '@proload/core': 0.3.3
-      astro: 2.0.15
+      astro: 2.0.16
       autoprefixer: 10.4.13(postcss@8.4.21)
       postcss: 8.4.21
       postcss-load-config: 4.0.1(postcss@8.4.21)
@@ -176,8 +176,8 @@ packages:
       - ts-node
     dev: true
 
-  /@astrojs/telemetry@2.0.0:
-    resolution: {integrity: sha512-RnWojVMIsql3GGWDP5pNWmhmBQVkCpxGNZ8yPr2cbmUqsUYGSvErhqfkLfro9j2/STi5UDmSpNgjPkQmXpgnKw==}
+  /@astrojs/telemetry@2.0.1:
+    resolution: {integrity: sha512-68BLBb9CcvQMkWHE6h6VTgm5g6agm3+xm8eb3cdkmX9nP1LSQ/fiD49Jb1qAgCtWcY8yQJiWQQXwcdyStD+VoA==}
     engines: {node: '>=16.12.0'}
     dependencies:
       ci-info: 3.7.1
@@ -192,10 +192,10 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/webapi@2.0.1:
-    resolution: {integrity: sha512-aOOHa86W5Ux77A3dS91YrVlSxtBSJsVK4UhvcXHY0gAl0ZrOStSKSBO45gZ6tFi2AiHu3bzpMtZjwrPHtl+cyg==}
+  /@astrojs/webapi@2.0.2:
+    resolution: {integrity: sha512-uSNtxLuvCWOcwy/DdIy30ocIcIUedEZpyhn1MHW3XuZ3PZHg4PMej3EP38Ns6uKgDKqMyEdscca9bMLuf4cO/w==}
     dependencies:
-      undici: 5.18.0
+      undici: 5.20.0
     dev: true
 
   /@babel/code-frame@7.18.6:
@@ -1481,16 +1481,16 @@ packages:
       zod: 3.20.6
     dev: true
 
-  /astro@2.0.15:
-    resolution: {integrity: sha512-CUJNrcdgcSjASValRNEesTgXSefgQ8Z9GHrZXckmTivatoBlVkYb8G8tmk7dgRt6JF+bwfOsA6cGdv7+G7hCbA==}
+  /astro@2.0.16:
+    resolution: {integrity: sha512-noQL+bbBZaCLbh7wmpVON+e4kDxymDsIQkEUzzuMKLQodYynxr/Sp7RBA/JnEqXz4CRyd7IrgeQBN0cKOuBtzQ==}
     engines: {node: '>=16.12.0', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
       '@astrojs/compiler': 1.1.0
       '@astrojs/language-server': 0.28.3
-      '@astrojs/markdown-remark': 2.0.1(astro@2.0.15)
-      '@astrojs/telemetry': 2.0.0
-      '@astrojs/webapi': 2.0.1
+      '@astrojs/markdown-remark': 2.0.1(astro@2.0.16)
+      '@astrojs/telemetry': 2.0.1
+      '@astrojs/webapi': 2.0.2
       '@babel/core': 7.20.12
       '@babel/generator': 7.20.7
       '@babel/parser': 7.20.13
@@ -4673,13 +4673,6 @@ packages:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: true
-
-  /undici@5.18.0:
-    resolution: {integrity: sha512-1iVwbhonhFytNdg0P4PqyIAXbdlVZVebtPDvuM36m66mRw4OGrCm2MYynJv/UENFLdP13J1nPVQzVE2zTs1OeA==}
-    engines: {node: '>=12.18'}
-    dependencies:
-      busboy: 1.6.0
     dev: true
 
   /undici@5.20.0:
