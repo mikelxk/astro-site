@@ -11,8 +11,8 @@ devDependencies:
     specifier: 3.0.1
     version: 3.0.1(astro@2.0.16)(tailwindcss@3.2.7)
   '@cloudflare/workers-types':
-    specifier: 4.20230221.0
-    version: 4.20230221.0
+    specifier: 4.20230228.0
+    version: 4.20230228.0
   '@tailwindcss/typography':
     specifier: 0.5.9
     version: 0.5.9(tailwindcss@3.2.7)
@@ -434,8 +434,8 @@ packages:
       mime: 3.0.0
     dev: true
 
-  /@cloudflare/workers-types@4.20230221.0:
-    resolution: {integrity: sha512-Ge8csuFQMNv3hd8r85PFWv4KV6bHAtKoBaanTkjbbeJS+mizoiBn4OBva0CFQiGfRJklFSGd4OxuCuiK05kogg==}
+  /@cloudflare/workers-types@4.20230228.0:
+    resolution: {integrity: sha512-tDaqH3DrKmDoe/YrCnzVSqjNH6GnUOOajv2Ztj2h7BPLFyYTb81iCkARgb+G4bpxhn7y4f1KxxDT2+Yp4rt7Hg==}
     dev: true
 
   /@emmetio/abbreviation@2.2.3:
