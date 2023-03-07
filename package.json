@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@astrojs/mdx": "0.18.0",
-    "@astrojs/sitemap": "1.1.0",
+    "@astrojs/sitemap": "1.2.0",
     "@astrojs/tailwind": "3.0.1",
     "@cloudflare/workers-types": "4.20230307.0",
     "@tailwindcss/typography": "0.5.9",
