@@ -5,8 +5,8 @@ devDependencies:
     specifier: 0.18.1
     version: 0.18.1(astro@2.1.2)
   '@astrojs/sitemap':
-    specifier: 1.2.0
-    version: 1.2.0
+    specifier: 1.2.1
+    version: 1.2.1
   '@astrojs/tailwind':
     specifier: 3.1.0
     version: 3.1.0(astro@2.1.2)(tailwindcss@3.2.7)
@@ -154,8 +154,8 @@ packages:
       prismjs: 1.29.0
     dev: true
 
-  /@astrojs/sitemap@1.2.0:
-    resolution: {integrity: sha512-v4Esbchc7QcbDilDcZ80BrW29o7SoWnuX80dndH+rE92cpiRwdJw5w1bfI17mtmjlt3NjgFxyjVB93ycD9s66A==}
+  /@astrojs/sitemap@1.2.1:
+    resolution: {integrity: sha512-nlKP1qc1ENZ61w+ep5RdsObjYWso4QdLGC5WyzssnKkgVDijHT61s/tHFfBWHhxqdjcw4x1V1um/eSQZPDTR3Q==}
     dependencies:
       sitemap: 7.1.1
       zod: 3.20.6
