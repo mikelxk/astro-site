@@ -25,7 +25,7 @@
     "react-dom": "18.2.0",
     "realm-web": "2.0.0",
     "svgo": "2.8",
-    "tailwindcss": "3.3.4",
+    "tailwindcss": "3.3.5",
     "typescript": "5.2.2",
     "wrangler": "2.20.1"
   }
