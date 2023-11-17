@@ -7,7 +7,7 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "format:astro": "pnpm prettier -w src/*/*.astro --plugin-search-dir=."
+    "format:astro": "pnpm prettier -w src/"
   },
   "devDependencies": {
     "@astrojs/mdx": "1.1.5",

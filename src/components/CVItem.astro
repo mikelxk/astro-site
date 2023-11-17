@@ -20,8 +20,8 @@ const timeframe =
   endTime === now
     ? `${startYear} - present`
     : startYear === endYear
-    ? startYear
-    : `${startYear} - ${endYear}`
+      ? startYear
+      : `${startYear} - ${endYear}`
 
 const startMonths = start.getFullYear() * 12 + start.getMonth()
 const endMonths = endTime.getFullYear() * 12 + endTime.getMonth()

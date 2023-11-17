@@ -2,7 +2,8 @@
 // Component Imports
 import Badges from "@components/Badges.astro"
 import BaseHead from "@components/BaseHead.astro"
-import Elaina from "/Elaina.webp"
+import Elaina from "public/Elaina.webp"
+import { Image } from "astro:assets"
 import Link from "@components/Link.astro"
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
@@ -28,7 +29,7 @@ const description = "Mike's blog"
       <div class="flex flex-col sm:flex-row">
         <img
           class="pointer-events-none h-24 w-24 rounded-full md:h-32 md:w-32"
-          src={Elaina}
+          src={Elaina.src}
           alt="avatar"
           loading="lazy"
         />
@@ -47,8 +48,8 @@ const description = "Mike's blog"
         /> and <Link href="https://github.com/STEM-C/CaSMM" text="CaSMM" />.
       </p>
       <p class="mt-4 text-lg leading-7 md:mt-8">
-        Wanna know more? <Link text="Email" href="mailto:mike.lxk@gmail.com" /> me
-        or take a look at my <Link text="Blog" href="/blogs" />.
+        Wanna know more? <Link text="Email" href="mailto:mike.lxk@gmail.com" />
+         me or take a look at my <Link text="Blog" href="/blogs" />.
       </p>
       <Badges />
     </div>

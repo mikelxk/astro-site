@@ -9,7 +9,7 @@ const description = `My Recollection on Coding, Design, and Life`
 const allPosts = (await Astro.glob("./blog/*.mdx")).sort(
   (a, b) =>
     new Date(b.frontmatter.publishDate).valueOf() -
-    new Date(a.frontmatter.publishDate).valueOf()
+    new Date(a.frontmatter.publishDate).valueOf(),
 )
 ---
 
