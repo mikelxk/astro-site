@@ -15,8 +15,8 @@ devDependencies:
     specifier: 5.0.2
     version: 5.0.2(astro@3.5.7)(tailwindcss@3.3.5)
   '@cloudflare/workers-types':
-    specifier: 4.20231025.0
-    version: 4.20231025.0
+    specifier: 4.20231121.0
+    version: 4.20231121.0
   '@tailwindcss/typography':
     specifier: 0.5.10
     version: 0.5.10(tailwindcss@3.3.5)
@@ -459,8 +459,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20231025.0:
-    resolution: {integrity: sha512-TkcZkntUTOcvJ4vgmwpNfLTclpMbmbClZCe62B25/VTukmyv91joRa4eKzSjzCZUXTbFHNmVdOpmGaaJU2U3+A==}
+  /@cloudflare/workers-types@4.20231121.0:
+    resolution: {integrity: sha512-+kWfpCkqiepwAKXyHoE0gnkPgkLhz0/9HOBIGhHRsUvUKvhUtm3mbqqoGRWgF1qcjzrDUBbrrOq4MYHfFtc2RA==}
     dev: true
 
   /@esbuild-plugins/node-globals-polyfill@0.2.3(esbuild@0.17.19):
