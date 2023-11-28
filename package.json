@@ -15,7 +15,7 @@
     "@astrojs/tailwind": "5.0.2",
     "@cloudflare/workers-types": "4.20231121.0",
     "@tailwindcss/typography": "0.5.10",
-    "astro": "3.6.1",
+    "astro": "3.6.2",
     "astro-icon": "0.8.1",
     "astro-robots-txt": "1.0.0",
     "prettier": "3.1.0",
