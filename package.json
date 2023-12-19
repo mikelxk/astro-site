@@ -13,7 +13,7 @@
     "@astrojs/mdx": "1.1.5",
     "@astrojs/sitemap": "3.0.3",
     "@astrojs/tailwind": "5.0.3",
-    "@cloudflare/workers-types": "4.20231121.0",
+    "@cloudflare/workers-types": "4.20231218.0",
     "@tailwindcss/typography": "0.5.10",
     "astro": "3.6.4",
     "astro-icon": "0.8.2",
