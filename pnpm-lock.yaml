@@ -30,14 +30,14 @@ devDependencies:
     specifier: 1.0.0
     version: 1.0.0
   prettier:
-    specifier: 3.2.3
-    version: 3.2.3
+    specifier: 3.2.4
+    version: 3.2.4
   prettier-plugin-astro:
     specifier: 0.12.3
     version: 0.12.3
   prettier-plugin-tailwindcss:
     specifier: 0.5.11
-    version: 0.5.11(prettier-plugin-astro@0.12.3)(prettier@3.2.3)
+    version: 0.5.11(prettier-plugin-astro@0.12.3)(prettier@3.2.4)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -3881,11 +3881,11 @@ packages:
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 1.8.0
-      prettier: 3.2.3
+      prettier: 3.2.4
       sass-formatter: 0.7.6
     dev: true
 
-  /prettier-plugin-tailwindcss@0.5.11(prettier-plugin-astro@0.12.3)(prettier@3.2.3):
+  /prettier-plugin-tailwindcss@0.5.11(prettier-plugin-astro@0.12.3)(prettier@3.2.4):
     resolution: {integrity: sha512-AvI/DNyMctyyxGOjyePgi/gqj5hJYClZ1avtQvLlqMT3uDZkRbi4HhGUpok3DRzv9z7Lti85Kdj3s3/1CeNI0w==}
     engines: {node: '>=14.21.3'}
     peerDependencies:
@@ -3934,12 +3934,12 @@ packages:
       prettier-plugin-twig-melody:
         optional: true
     dependencies:
-      prettier: 3.2.3
+      prettier: 3.2.4
       prettier-plugin-astro: 0.12.3
     dev: true
 
-  /prettier@3.2.3:
-    resolution: {integrity: sha512-QNhUTBq+mqt1oH1dTfY3phOKNhcDdJkfttHI6u0kj7M2+c+7fmNKlgh2GhnHiqMcbxJ+a0j2igz/2jfl9QKLuw==}
+  /prettier@3.2.4:
+    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
