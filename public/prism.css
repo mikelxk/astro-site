@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
-  code[class*="language-"],
-  pre[class*="language-"] {
+  code[class*="astro-code"],
+  pre[class*="data-language"] {
     color: #839496;
     text-shadow: 0 1px rgba(0, 0, 0, 0.3);
     font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
@@ -23,14 +23,14 @@
   }
 
   /* Code blocks */
-  pre[class*="language-"] {
+  pre[class*="astro-code"] {
     padding: 1em;
     margin: 0.5em 0;
     overflow: auto;
     border-radius: 0.3em;
   }
 
-  :not(pre) > code[class*="language-"],
+  :not(pre) > code[class*="astro-code"],
   pre[class*="language-"] {
     background: #002b36;
   }

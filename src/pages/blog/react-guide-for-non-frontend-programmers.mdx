@@ -1,0 +1,96 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "React Guide for Non-Frontend Programmers"
+publishDate: "3 May 2024"
+name: "@mikelxk"
+description: "A guide to React for non-frontend programmers."
+---
+
+import Cool from "@components/Author.astro"
+
+<Cool name={frontmatter.name} />
+
+I saw a lot of programmers who have no prior exposure to frontend are stuggling with React especially with the functional part(etc. hooks).They are more familiar with backend programming languages like Python, Java, C++, etc. So I decided to write a guide to help them understand React better.
+
+## How to get started with React
+
+React mostly uses a syntax extension of JavaScript called JSX. JSX is a syntax that allows you to write HTML elements in JavaScript and place them in the DOM without any createElement() and appendChild() methods.
+It'll be easier to understand if you have some experience with HTML and JavaScript.
+If you don't have prior experience with HTML, you can learn it from [W3Schools](https://www.w3schools.com/html/) or [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML).
+
+Here is an example of JSX:
+
+```jsx
+const element = <h1>Hello, world!</h1>;
+```
+You can put any valid JavaScript expression inside the curly braces in JSX. For example:
+
+```jsx
+const name = 'Josh Perez';
+const element = <h1>Hello, {name}</h1>;
+```
+
+You can also use JSX inside of JavaScript functions:
+Here we use a variable called `user` to display a greeting message, it could be a string or null.
+
+```jsx
+function getGreeting(user) {
+  return user ? <h1>Hello, {user}!</h1> : <h1>Hello, Stranger.</h1>;
+}
+```
+
+or you can use javascript expressions inside of JSX:
+
+```jsx
+const getGreeting = (user) => {
+  return <h1>Hello, {user ? user : 'Stranger'}!</h1>
+}
+```
+
+## React Components
+
+React components are small, reusable pieces of code that return a React element to be rendered to the page. The simplest version of a React component is a plain JavaScript function that returns a React element.
+
+Here is an example of a React class component:
+
+```jsx
+class Welcome extends React.Component {
+  render() {
+    return <h1>Hello, {this.props.name}</h1>;
+  }
+}
+```
+And here is an example of a React functional component:
+
+```jsx
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+```
+
+In short, React components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
+
+
+## React Hooks
+
+React hooks are functions that let you use state and other React features in functional components. They are introduced in React 16.8.
+
+Here is an example of a React functional component with hooks:
+
+```jsx
+import React, { useState } from 'react';
+
+function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```

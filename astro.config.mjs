@@ -23,6 +23,12 @@ export default defineConfig({
     }
   },
   markdown: {
-    syntaxHighlight: "prism",
+    syntaxHighlight: "shiki",
+    shikiConfig: {
+      themes: {
+        light: 'solarized-light',
+        dark: 'solarized-dark',
+      },
+    },
   }
 })
