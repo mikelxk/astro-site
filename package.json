@@ -10,11 +10,11 @@
     "format:astro": "pnpm prettier -w src/"
   },
   "devDependencies": {
-    "@astrojs/mdx": "2.3.1",
+    "@astrojs/mdx": "3.1.0",
     "@astrojs/sitemap": "3.1.5",
     "@astrojs/tailwind": "5.1.0",
     "@cloudflare/workers-types": "4.20240605.0",
-    "@iconify-json/fluent": "^1.1.52",
+    "@iconify-json/fluent": "^1.1.56",
     "@iconify-json/jam": "^1.1.8",
     "@iconify-json/mdi": "^1.1.66",
     "@tailwindcss/typography": "0.5.13",
