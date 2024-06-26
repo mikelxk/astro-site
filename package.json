@@ -18,7 +18,7 @@
     "@iconify-json/jam": "^1.1.8",
     "@iconify-json/mdi": "^1.1.66",
     "@tailwindcss/typography": "0.5.13",
-    "astro": "4.11.1",
+    "astro": "4.11.2",
     "astro-icon": "1.1.0",
     "astro-robots-txt": "1.0.0",
     "prettier": "3.3.2",
