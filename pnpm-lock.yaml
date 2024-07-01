@@ -22,7 +22,7 @@ importers:
         version: 4.20240620.0
       '@iconify-json/fluent':
         specifier: ^1.1.56
-        version: 1.1.57
+        version: 1.1.58
       '@iconify-json/jam':
         specifier: ^1.1.8
         version: 1.1.8
@@ -555,8 +555,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@iconify-json/fluent@1.1.57':
-    resolution: {integrity: sha512-pDDVsDubUXPDj9HV6apJ/vZJZ/PFWd+Z3cdesPB9eVkK5CIbo1LD3ZCR1i3pQiPYODCswykypRREIuN18LNqtw==}
+  '@iconify-json/fluent@1.1.58':
+    resolution: {integrity: sha512-J1U47sH4TIUVgABhUfgjSnyXdgUZNp96sakFW1brhahKOFAFtbshLLmVci6t42fY8LX21q4cS2qtAOzhlPnDfA==}
 
   '@iconify-json/jam@1.1.8':
     resolution: {integrity: sha512-tp0Oynd8n8/DNIDHIltNTl2vXpHN09V1KMEF6mf8w6Tgsq/KQFvUWY0whD4cTvpR6PE/gCXibFnUNzpQSYTZnQ==}
@@ -3231,7 +3231,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@iconify-json/fluent@1.1.57':
+  '@iconify-json/fluent@1.1.58':
     dependencies:
       '@iconify/types': 2.0.0
 
