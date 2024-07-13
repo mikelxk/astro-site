@@ -21,7 +21,7 @@
     "astro": "4.11.5",
     "astro-icon": "1.1.0",
     "astro-robots-txt": "1.0.0",
-    "prettier": "3.3.2",
+    "prettier": "3.3.3",
     "prettier-plugin-astro": "0.14.0",
     "prettier-plugin-tailwindcss": "0.6.5",
     "react": "18.3.1",
