@@ -3,12 +3,20 @@ import BaseHead from "@components/BaseHead.astro"
 import BlogHeader from "@components/BlogHeader.astro"
 import BlogPost from "@components/BlogPost.astro"
 
-const { content } = Astro.props
-const { title, description, publishDate, name, heroImage, permalink, alt } =
-  content
+const { frontmatter } = Astro.props
+const {
+  title,
+  description,
+  publishDate,
+  name,
+  heroImage,
+  permalink,
+  alt,
+  lang,
+} = frontmatter
 ---
 
-<html lang={content.lang || "en"}>
+<html lang={lang || "en"}>
   <head>
     <BaseHead {title} {description} {permalink} />
   </head>

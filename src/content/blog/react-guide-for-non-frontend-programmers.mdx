@@ -21,13 +21,14 @@ If you don't have prior experience with HTML, you can learn it from [W3Schools](
 Here is an example of JSX:
 
 ```jsx
-const element = <h1>Hello, world!</h1>;
+const element = <h1>Hello, world!</h1>
 ```
+
 You can put any valid JavaScript expression inside the curly braces in JSX. For example:
 
 ```jsx
-const name = 'Josh Perez';
-const element = <h1>Hello, {name}</h1>;
+const name = "Josh Perez"
+const element = <h1>Hello, {name}</h1>
 ```
 
 You can also use JSX inside of JavaScript functions:
@@ -35,15 +36,15 @@ Here we use a variable called `user` to display a greeting message, it could be 
 
 ```jsx
 function getGreeting(user) {
-  return user ? <h1>Hello, {user}!</h1> : <h1>Hello, Stranger.</h1>;
+  return user ? <h1>Hello, {user}!</h1> : <h1>Hello, Stranger.</h1>
 }
 ```
 
 or you can use javascript expressions inside of JSX:
 
 ```jsx
-const getGreeting = (user) => {
-  return <h1>Hello, {user ? user : 'Stranger'}!</h1>
+const getGreeting = user => {
+  return <h1>Hello, {user ? user : "Stranger"}!</h1>
 }
 ```
 
@@ -56,20 +57,20 @@ Here is an example of a React class component:
 ```jsx
 class Welcome extends React.Component {
   render() {
-    return <h1>Hello, {this.props.name}</h1>;
+    return <h1>Hello, {this.props.name}</h1>
   }
 }
 ```
+
 And here is an example of a React functional component:
 
 ```jsx
 function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+  return <h1>Hello, {props.name}</h1>
 }
 ```
 
 In short, React components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.
-
 
 ## React Hooks
 
@@ -78,19 +79,17 @@ React hooks are functions that let you use state and other React features in fun
 Here is an example of a React functional component with hooks:
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from "react"
 
 function Example() {
   // Declare a new state variable, which we'll call "count"
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   return (
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
-  );
+  )
 }
 ```

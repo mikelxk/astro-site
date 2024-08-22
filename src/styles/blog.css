@@ -21,9 +21,10 @@
 .prose :where(code):not(:where([class~="not-prose"] *))::after {
   content: "";
 } */
-.prose :where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+.prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   font-size: 1em;
-  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
