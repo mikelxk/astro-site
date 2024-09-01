@@ -25,7 +25,7 @@ importers:
         version: 1.2.0
       '@iconify-json/jam':
         specifier: ^1.1.8
-        version: 1.1.9
+        version: 1.2.0
       '@iconify-json/mdi':
         specifier: ^1.1.66
         version: 1.1.68
@@ -546,8 +546,8 @@ packages:
   '@iconify-json/fluent@1.2.0':
     resolution: {integrity: sha512-K4lsuOXlUM9TWapE4p8A/0l7mhcV3Rqp3b0NY3oIbP8IXM0YOTn4G5eZPhYmwTrhbZbQDqktGkI0BuETUhEbtw==}
 
-  '@iconify-json/jam@1.1.9':
-    resolution: {integrity: sha512-p5CNOLUzToKA/T9/SNZUIT2cUqeH/wNl+cJ/rm2umhvxpc0Dmr4B4YvZ/IKV5eno3lxSqgxjykIHDWa+1Wt6jA==}
+  '@iconify-json/jam@1.2.0':
+    resolution: {integrity: sha512-92PWWF46UcNK0aAdCjl9WesvRB9gjIRN3pHDX/mpdQvO/RHNRmHFajD4VMEq0AOz+rJTfCHoodZnbD4cUP12Ww==}
 
   '@iconify-json/mdi@1.1.68':
     resolution: {integrity: sha512-7//TKCiXLU6kNWeOJRTBbisofVO7rF1sD1TZTL4/V9nqlmVNczQ5IOY0GgKOTsitkcTnX9GXgrgbjw3OI5B69w==}
@@ -3291,7 +3291,7 @@ snapshots:
     dependencies:
       '@iconify/types': 2.0.0
 
-  '@iconify-json/jam@1.1.9':
+  '@iconify-json/jam@1.2.0':
     dependencies:
       '@iconify/types': 2.0.0
 
