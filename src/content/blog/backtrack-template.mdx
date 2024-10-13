@@ -1,0 +1,52 @@
+---
+layout: "../../layouts/BlogPost.astro"
+title: "Template for Backtracking"
+publishDate: "24 Sep 2024"
+name: "@mikelxk"
+description: "My template for backtracking"
+---
+
+import Cool from "@components/Author.astro"
+
+<Cool name={frontmatter.name} />
+
+## What is backtracking?
+
+[Backtracking](https://en.wikipedia.org/wiki/Backtracking) is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate ("backtracks") as soon as it determines that the candidate cannot possibly be completed to a valid solution.
+
+Essentially, backtracking is dfs on a tree of possible solutions.
+
+## Backtracking template
+
+For a general backtracking, we need to write a base case for the end condition, a loop for the choices, and a recursive call.
+
+```python
+def backtrack(path, choices):
+    if end_condition(path):
+        return path
+    for choice in choices:
+        if is_valid(path, choice):
+            path.add(choice)
+            backtrack(path, choices)
+            path.remove(choice)
+```
+
+You can remove the `path.add(choice)` and `path.remove(choice)` if you just add the choice to the path in the recursive call.
+
+```python
+backtrack(path + [choice], choices)
+```
+
+There are many variations of backtracking, such as the [subset sum problem](https://en.wikipedia.org/wiki/Subset_sum_problem), [n-queens problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle), and [sudoku](https://en.wikipedia.org/wiki/Sudoku).
+
+## Variations
+
+We can moidy the template to fit different problems.
+
+### Permutations
+
+### Combinations
+
+### Duplicated input
+
+### Multiple solutions on one path(Subsets)
