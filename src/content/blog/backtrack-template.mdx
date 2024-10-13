@@ -23,7 +23,8 @@ For a general backtracking, we need to write a base case for the end condition, 
 ```python
 def backtrack(path, choices):
     if end_condition(path):
-        return path
+        res.append(path)
+        return
     for choice in choices:
         if is_valid(path, choice):
             path.add(choice)
@@ -45,8 +46,66 @@ We can moidy the template to fit different problems.
 
 ### Permutations
 
+For permutations, we need to add a visited set to keep track of the visited elements.
+
+```python
+def backtrack(path, choices, visited):
+    if end_condition(path):
+        res.append(path)
+        return
+    for choice in choices:
+        if is_valid(path, choice):
+            path.add(choice)
+            visited.add(choice)
+            backtrack(path, choices, visited)
+            path.remove(choice)
+            visited.remove(choice)
+```
+
 ### Combinations
+
+For combinations, we need to add a start index to avoid duplicates.
+
+```python
+def backtrack(path, choices, start):
+    if end_condition(path):
+        res.append(path)
+        return
+    for i in range(start, len(choices)):
+        if is_valid(path, choices[i]):
+            path.add(choices[i])
+            backtrack(path, choices, i + 1)
+            path.remove(choices[i])
+```
 
 ### Duplicated input
 
+For duplicated input, we need to sort the input and skip the duplicated elements.
+
+```python
+def backtrack(path, choices, start):
+    if end_condition(path):
+        res.append(path)
+        return
+    for i in range(start, len(choices)):
+        if i > start and choices[i] == choices[i - 1]:
+            continue
+        if is_valid(path, choices[i]):
+            path.add(choices[i])
+            backtrack(path, choices, i + 1)
+            path.remove(choices[i])
+```
+
 ### Multiple solutions on one path(Subsets)
+
+For subsets, we need to add the result to the result list, and we do not need to check the end condition.
+
+```python
+def backtrack(path, choices, start):
+    result.add(path)
+    for i in range(start, len(choices)):
+        if is_valid(path, choices[i]):
+            path.add(choices[i])
+            backtrack(path, choices, i + 1, result)
+            path.remove(choices[i])
+```
