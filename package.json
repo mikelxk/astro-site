@@ -19,7 +19,7 @@
     "@iconify-json/mdi": "^1.1.66",
     "@tailwindcss/typography": "0.5.15",
     "astro": "4.16.14",
-    "astro-icon": "1.1.2",
+    "astro-icon": "1.1.4",
     "astro-robots-txt": "1.0.0",
     "prettier": "3.3.3",
     "prettier-plugin-astro": "0.14.1",

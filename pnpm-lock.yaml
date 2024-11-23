@@ -36,8 +36,8 @@ importers:
         specifier: 4.16.14
         version: 4.16.14(@types/node@20.14.2)(rollup@4.21.0)(typescript@5.7.2)
       astro-icon:
-        specifier: 1.1.2
-        version: 1.1.2
+        specifier: 1.1.4
+        version: 1.1.4
       astro-robots-txt:
         specifier: 1.0.0
         version: 1.0.0
@@ -973,8 +973,8 @@ packages:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
 
-  astro-icon@1.1.2:
-    resolution: {integrity: sha512-2qAHBtZLYuFEIMP0Ck0edyLi5fQmJjwP2Qbv41f8L4KAJ2sra/dH7q5lCOn4q0DHVtS0w3tPG8UKQRits3UPcg==}
+  astro-icon@1.1.4:
+    resolution: {integrity: sha512-sMLkQaevIQLv38WBzb/RDbsmxhg5+X+KcNmpTi9cE6MLurNWU1MPnlO87d9Vwg4HxTenKpDlYp81A3syXFW/gw==}
 
   astro-robots-txt@1.0.0:
     resolution: {integrity: sha512-6JQSLid4gMhoWjOm85UHLkgrw0+hHIjnJVIUqxjU2D6feKlVyYukMNYjH44ZDZBK1P8hNxd33PgWlHzCASvedA==}
@@ -3732,7 +3732,7 @@ snapshots:
 
   astring@1.8.6: {}
 
-  astro-icon@1.1.2:
+  astro-icon@1.1.4:
     dependencies:
       '@iconify/tools': 4.0.5
       '@iconify/types': 2.0.0
@@ -5871,7 +5871,7 @@ snapshots:
       css-tree: 2.3.1
       css-what: 6.1.0
       csso: 5.0.5
-      picocolors: 1.1.0
+      picocolors: 1.1.1
 
   tailwindcss@3.4.15:
     dependencies:
