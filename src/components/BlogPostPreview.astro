@@ -20,7 +20,7 @@ const url = `/blog/${post.id}`
         })
       }
     </p>
-    <a href={url}
+    <a href={url} data-astro-prefetch="false"
       ><h1
         class="m-0 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-[2.25rem] font-bold text-transparent"
       >
@@ -29,5 +29,5 @@ const url = `/blog/${post.id}`
     </a>
   </header>
   <p>{post.data.description}</p>
-  <a class="text-[#92a8d1]" href={url}>Read more</a>
+  <a class="text-[#92a8d1]" href={url} data-astro-prefetch="false">Read more</a>
 </article>
