@@ -10,7 +10,7 @@
     "format:astro": "pnpm prettier -w src/"
   },
   "devDependencies": {
-    "@astrojs/mdx": "3.1.9",
+    "@astrojs/mdx": "4.0.1",
     "@astrojs/sitemap": "3.2.1",
     "@astrojs/tailwind": "5.1.3",
     "@cloudflare/workers-types": "4.20241205.0",
@@ -18,7 +18,7 @@
     "@iconify-json/jam": "^1.1.8",
     "@iconify-json/mdi": "^1.1.66",
     "@tailwindcss/typography": "0.5.15",
-    "astro": "4.16.17",
+    "astro": "5.0.3",
     "astro-icon": "1.1.4",
     "astro-robots-txt": "1.0.0",
     "prettier": "3.4.2",
