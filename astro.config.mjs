@@ -7,7 +7,9 @@ import icon from "astro-icon"
 
 // https://astro.build/config
 export default defineConfig({
-  prefetch: true,
+  prefetch: {
+    prefetchAll: true
+  },
   integrations: [
     tailwind({ config: { applyBaseStyles: false } }),
     mdx(),
