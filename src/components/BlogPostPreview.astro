@@ -12,7 +12,13 @@ const url = `/blog/${post.id}`
 >
   <header class="flex flex-col items-start justify-center pb-4 text-left">
     <p class="publish-date m-0 text-sm font-medium">
-      {post.data.publishDate.toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' })}
+      {
+        post.data.publishDate.toLocaleDateString("en-US", {
+          day: "numeric",
+          month: "short",
+          year: "numeric",
+        })
+      }
     </p>
     <a href={url}
       ><h1
