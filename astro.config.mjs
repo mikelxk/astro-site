@@ -1,6 +1,7 @@
 import mdx from "@astrojs/mdx"
 import sitemap from "@astrojs/sitemap"
 import tailwind from "@astrojs/tailwind"
+import react from '@astrojs/react';
 import robotsTxt from "astro-robots-txt"
 import { defineConfig } from "astro/config"
 import icon from "astro-icon"
@@ -16,6 +17,7 @@ export default defineConfig({
     icon(),
     robotsTxt(),
     sitemap(),
+    react(),
   ],
   site: "https://mikelxk.com/",
   build: {

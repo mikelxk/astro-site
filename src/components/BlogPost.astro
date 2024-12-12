@@ -1,5 +1,6 @@
 ---
 import Author from "./Author.astro"
+import Giscus from '@giscus/react';
 export interface Props {
   title: string
   author: string
@@ -50,19 +51,18 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
         <slot />
       </main>
     </div>
-    <script
-      src="https://giscus.app/client.js"
-      data-repo="mikelxk/astro-site"
-      data-repo-id="R_kgDOHVQQMA"
-      data-category="General"
-      data-category-id="DIC_kwDOHVQQMM4Ch6M6"
-      data-mapping="pathname"
-      data-strict="0"
-      data-reactions-enabled="1"
-      data-emit-metadata="0"
-      data-input-position="bottom"
-      data-theme="preferred_color_scheme"
-      data-lang="en"
-      crossorigin="anonymous"></script>
+    <Giscus
+      repo="mikelxk/astro-site"
+      repoid="R_kgDOHVQQMA"
+      category="General"
+      categoryid="DIC_kwDOHVQQMM4Ch6M6"
+      mapping="pathname"
+      strict="0"
+      reactionsenabled="1"
+      emit-metadata="0"
+      inputposition="bottom"
+      theme="preferred_color_scheme"
+      lang="en"
+      crossorigin="anonymous"></Giscus>
   </article>
 </div>
