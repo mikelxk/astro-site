@@ -1,6 +1,5 @@
 ---
 import Author from "./Author.astro"
-import Giscus from '@giscus/react';
 export interface Props {
   title: string
   author: string
@@ -11,7 +10,9 @@ export interface Props {
 const { title, author, publishDate, heroImage, alt } = Astro.props
 ---
 
-<head> </head>
+<head> 
+  <script type="module" src="https://esm.sh/giscus"></script>
+</head>
 <div class="layout">
   <article class="content mb-32">
     <div>
@@ -51,18 +52,18 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
         <slot />
       </main>
     </div>
-    <Giscus
+    <giscus-widget
       repo="mikelxk/astro-site"
-      repoid="R_kgDOHVQQMA"
+      repoId="R_kgDOHVQQMA"
       category="General"
-      categoryid="DIC_kwDOHVQQMM4Ch6M6"
+      categoryId="DIC_kwDOHVQQMM4Ch6M6"
       mapping="pathname"
       strict="0"
       reactionsenabled="1"
-      emit-metadata="0"
-      inputposition="bottom"
+      emitMetadata="0"
+      inputPosition="bottom"
       theme="preferred_color_scheme"
       lang="en"
-      crossorigin="anonymous"></Giscus>
+      crossorigin="anonymous"></giscus-widget>
   </article>
 </div>
