@@ -15,12 +15,16 @@
     @apply mx-auto w-full max-w-[65em] px-8;
   }
 }
-/* .prose :where(code):not(:where([class~="not-prose"] *))::before {
+.prose :where(code):not(:where([class~="not-prose"] *))::before {
   content: "";
 }
 .prose :where(code):not(:where([class~="not-prose"] *))::after {
   content: "";
-} */
+}
+.prose :where(code):not(:where([class~="not-prose"] *)) {
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+}
 .prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   font-size: 1em;
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
