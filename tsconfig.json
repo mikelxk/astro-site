@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "Node16",
     "baseUrl": ".",
     "paths": {
       "@components/*": ["src/components/*"]
