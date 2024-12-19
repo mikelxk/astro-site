@@ -12,7 +12,7 @@
     "@iconify-json/jam": "^1.2.1",
     "@iconify-json/mdi": "^1.2.1",
     "@tailwindcss/typography": "0.5.15",
-    "astro": "5.0.9",
+    "astro": "5.1.0",
     "astro-icon": "1.1.4",
     "astro-robots-txt": "1.0.0",
     "prettier": "3.4.2",
