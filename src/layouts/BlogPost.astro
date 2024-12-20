@@ -1,7 +1,7 @@
 ---
 import BaseHead from "@components/BaseHead.astro"
 import BlogHeader from "@components/BlogHeader.astro"
-import BlogPost from "@components/BlogPost.astro"
+import BlogPostBase from "@components/BlogPostBase.astro"
 
 const { frontmatter } = Astro.props
 const {
@@ -24,9 +24,9 @@ const {
   <body>
     <BlogHeader />
     <div class="wrapper prose dark:prose-invert prose-img:rounded-lg">
-      <BlogPost {title} author={name} {heroImage} {publishDate} {alt}>
+      <BlogPostBase {title} author={name} {heroImage} {publishDate} {alt}>
         <slot />
-      </BlogPost>
+      </BlogPostBase>
     </div>
   </body>
 </html>
