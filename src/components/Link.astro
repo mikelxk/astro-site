@@ -7,6 +7,6 @@ export interface Props {
 const { text, href } = Astro.props as Props
 ---
 
-<a {href} class="gap-0 hover:underline">
+<a {href} class="gap-0 hover:underline inline-block">
   {text}
 </a>
