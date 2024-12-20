@@ -13,7 +13,7 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
   <article class="content mb-32">
     <div>
       <header
-        class="mb-8 flex flex-col items-center justify-center border-b border-[var(--theme-divider)] pb-8 text-center"
+        class="mb-8 flex flex-col items-center justify-center border-b border-gray-200 dark:border-gray-900 pb-8 text-center"
       >
         {
           heroImage && (
@@ -64,7 +64,6 @@ const { title, author, publishDate, heroImage, alt } = Astro.props
       data-theme="preferred_color_scheme"
       data-lang="en"
       crossorigin="anonymous"
-      async
-      ></script>
+      async></script>
   </article>
 </div>

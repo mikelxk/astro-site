@@ -27,6 +27,6 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "format:astro": "pnpm prettier -w src/"
+    "format:astro": "prettier -w src/"
   }
 }
