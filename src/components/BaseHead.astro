@@ -3,9 +3,9 @@ interface Props {
   title: string
   description: string
 }
+import { ClientRouter } from "astro:transitions"
 import "../styles/base.css"
 const { title, description } = Astro.props as Props
-import { ClientRouter } from "astro:transitions"
 ---
 
 <meta charset="UTF-8" />
@@ -13,10 +13,10 @@ import { ClientRouter } from "astro:transitions"
 <link rel="preload" as="image" href="/Elaina.webp" />
 <link rel="icon" type="image/x-icon" href="/Elaina.webp" />
 <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="Mike's Site"
-    href={new URL("rss.xml", Astro.site)}
+  rel="alternate"
+  type="application/rss+xml"
+  title="Mike's Site"
+  href={new URL("rss.xml", Astro.site)}
 />
 <title>{title}</title>
 <meta name="title" content={title} />
