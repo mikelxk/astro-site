@@ -25,6 +25,7 @@ export default defineConfig({
         light: 'solarized-light',
         dark: 'solarized-dark',
       },
+      wrap: true,
     },
   },
 })
