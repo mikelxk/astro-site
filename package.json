@@ -7,7 +7,7 @@
     "@astrojs/rss": "^4.0.10",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.4",
-    "@cloudflare/workers-types": "4.20241224.0",
+    "@cloudflare/workers-types": "4.20241230.0",
     "@iconify-json/fluent": "^1.2.11",
     "@iconify-json/jam": "^1.2.2",
     "@iconify-json/mdi": "^1.2.2",
