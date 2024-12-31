@@ -1,11 +1,18 @@
 ---
+interface Props {
+  href: string
+  text: string
+  name: string
+}
+
 import { Icon } from "astro-icon/components"
-const { href, text, name } = Astro.props
+
+const { href, text, name } = Astro.props as Props
 ---
 
-<a {href} aria-label={text}>
+<a href={href} aria-label={text}>
   <Icon
-    {name}
+    name={name}
     class="h-7 w-7 text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
   />
 </a>
