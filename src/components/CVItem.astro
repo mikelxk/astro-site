@@ -10,7 +10,7 @@ interface Props {
 }
 const {
   item: { start, end, title, company, description },
-} = Astro.props as Props
+} = Astro.props
 
 const now = new Date()
 const endTime = end ?? now
