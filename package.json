@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "type": "module",
   "devDependencies": {
-    "@astrojs/mdx": "4.0.4",
-    "@astrojs/rss": "^4.0.10",
+    "@astrojs/mdx": "4.0.3",
+    "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.4",
     "@cloudflare/workers-types": "4.20250109.0",
