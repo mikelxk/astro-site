@@ -21,7 +21,7 @@
 }
 
 @utility wrapper {
-  @apply mx-auto w-full max-w-[65em] px-8;
+  @apply mx-auto w-full max-w-[65em]! px-8;
 }
 
 @layer base {
