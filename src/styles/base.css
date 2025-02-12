@@ -40,13 +40,13 @@
   content: "";
 }
 .prose :where(code):not(:where([class~="not-prose"] *)) {
-  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
-    monospace;
+  font-family:
+    "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 .prose :where(pre):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   font-size: 1em;
-  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
-    monospace;
+  font-family:
+    "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -72,8 +72,8 @@ code[class*="astro-code"],
 pre[class*="data-language"] {
   color: #839496;
   text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
-    monospace;
+  font-family:
+    "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
