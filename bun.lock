@@ -21,7 +21,7 @@
         "prettier-plugin-tailwindcss": "^0.7.0",
         "tailwindcss": "^4.2.0",
         "typescript": "5.9.3",
-        "wrangler": "4.67.1",
+        "wrangler": "4.68.0",
       },
     },
   },
@@ -1032,7 +1032,7 @@
 
     "workerd": ["workerd@1.20260302.0", "", { "optionalDependencies": { "@cloudflare/workerd-darwin-64": "1.20260302.0", "@cloudflare/workerd-darwin-arm64": "1.20260302.0", "@cloudflare/workerd-linux-64": "1.20260302.0", "@cloudflare/workerd-linux-arm64": "1.20260302.0", "@cloudflare/workerd-windows-64": "1.20260302.0" }, "bin": { "workerd": "bin/workerd" } }, "sha512-FhNdC8cenMDllI6bTktFgxP5Bn5ZEnGtofgKipY6pW9jtq708D1DeGI6vGad78KQLBGaDwFy1eThjCoLYgFfog=="],
 
-    "wrangler": ["wrangler@4.67.1", "", { "dependencies": { "@cloudflare/kv-asset-handler": "0.4.2", "@cloudflare/unenv-preset": "2.14.0", "blake3-wasm": "2.1.5", "esbuild": "0.27.3", "miniflare": "4.20260302.0", "path-to-regexp": "6.3.0", "unenv": "2.0.0-rc.24", "workerd": "1.20260302.0" }, "optionalDependencies": { "fsevents": "~2.3.2" }, "peerDependencies": { "@cloudflare/workers-types": "^4.20260302.0" }, "optionalPeers": ["@cloudflare/workers-types"], "bin": { "wrangler": "bin/wrangler.js", "wrangler2": "bin/wrangler.js" } }, "sha512-5GXz8cQNN/2KCMQ/22oe9Vf9xwVNillOowhKq6W2+ZuveU4/IrTm61K4iIUOsBYmrhYGopSfk0GmyCTuNh2rsA=="],
+    "wrangler": ["wrangler@4.68.0", "", { "dependencies": { "@cloudflare/kv-asset-handler": "0.4.2", "@cloudflare/unenv-preset": "2.14.0", "blake3-wasm": "2.1.5", "esbuild": "0.27.3", "miniflare": "4.20260302.0", "path-to-regexp": "6.3.0", "unenv": "2.0.0-rc.24", "workerd": "1.20260302.0" }, "optionalDependencies": { "fsevents": "~2.3.2" }, "peerDependencies": { "@cloudflare/workers-types": "^4.20260302.0" }, "optionalPeers": ["@cloudflare/workers-types"], "bin": { "wrangler": "bin/wrangler.js", "wrangler2": "bin/wrangler.js" } }, "sha512-DCjl2ZfjwWV10iH4Zn+97isitPkb7BYxpbt4E/Okd/QKLFTp9xdwoa999UN9lugToqPm5Zz/UsRu6hpKZuT8BA=="],
 
     "wrap-ansi": ["wrap-ansi@9.0.0", "", { "dependencies": { "ansi-styles": "^6.2.1", "string-width": "^7.0.0", "strip-ansi": "^7.1.0" } }, "sha512-G8ura3S+3Z2G+mkgNRq8dqaFZAuxfsxpBB8OCTGRTCtp+l/v9nbFNmCUP1BZMts3G1142MsZfn6eeUKrr4PD1Q=="],
 
