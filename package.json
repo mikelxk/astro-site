@@ -6,7 +6,7 @@
     "@astrojs/mdx": "5.0.0-beta.10",
     "@astrojs/rss": "4.0.15",
     "@astrojs/sitemap": "3.7.0",
-    "@cloudflare/workers-types": "4.20260305.0",
+    "@cloudflare/workers-types": "4.20260305.1",
     "@iconify-json/fluent": "^1.2.22",
     "@iconify-json/jam": "^1.2.3",
     "@iconify-json/mdi": "^1.2.3",
