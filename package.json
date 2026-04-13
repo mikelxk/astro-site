@@ -20,7 +20,7 @@
     "prettier-plugin-tailwindcss": "^0.7.0",
     "tailwindcss": "^4.2.0",
     "typescript": "6.0.2",
-    "wrangler": "4.81.1"
+    "wrangler": "4.82.1"
   },
   "scripts": {
     "dev": "astro dev",
