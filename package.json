@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "type": "module",
   "devDependencies": {
-    "@astrojs/mdx": "5.0.3",
+    "@astrojs/mdx": "5.0.4",
     "@astrojs/rss": "4.0.18",
     "@astrojs/sitemap": "3.7.2",
     "@cloudflare/workers-types": "4.20260422.1",
@@ -12,7 +12,7 @@
     "@iconify-json/mdi": "^1.2.3",
     "@tailwindcss/typography": "0.5.19",
     "@tailwindcss/vite": "4.2.4",
-    "astro": "6.1.8",
+    "astro": "6.1.9",
     "astro-icon": "1.1.5",
     "astro-robots-txt": "1.0.0",
     "prettier": "3.8.3",
