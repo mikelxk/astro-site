@@ -2,10 +2,6 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "Node16",
-    "baseUrl": ".",
-    "paths": {
-      "@components/*": ["src/components/*"]
-    },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "moduleResolution": "Node16",

@@ -1,10 +1,9 @@
 ---
 // Component Imports
-import Badges from "@components/Badges.astro"
-import BaseHead from "@components/BaseHead.astro"
-import Elaina from "public/Elaina.webp"
+import Badges from "../components/Badges.astro"
+import BaseHead from "../components/BaseHead.astro"
 import { Image } from "astro:assets"
-import Link from "@components/Link.astro"
+import Link from "../components/Link.astro"
 // Component Script:
 // You can write any JavaScript/TypeScript that you'd like here.
 // It will run during the build, but never in the browser.
@@ -29,7 +28,7 @@ const description = "Mike's blog"
       <div class="flex flex-col sm:flex-row">
         <img
           class="pointer-events-none h-24 w-24 rounded-full md:h-32 md:w-32"
-          src={Elaina.src}
+          src="/Elaina.webp"
           alt="avatar"
           loading="eager"
         />
