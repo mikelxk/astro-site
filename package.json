@@ -4,7 +4,7 @@
   "type": "module",
   "devDependencies": {
     "@astrojs/mdx": "5.0.6",
-    "@astrojs/rss": "4.0.18",
+    "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.3",
     "@cloudflare/workers-types": "4.20260630.1",
     "@iconify-json/fluent": "^1.2.45",
