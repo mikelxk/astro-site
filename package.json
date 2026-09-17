@@ -15,7 +15,7 @@
     "astro": "7.3.3",
     "astro-icon": "1.2.0",
     "astro-robots-txt": "1.0.0",
-    "prettier": "3.9.7",
+    "prettier": "3.9.8",
     "prettier-plugin-astro": "0.14.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwindcss": "^4.3.0",
