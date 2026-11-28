@@ -7,7 +7,7 @@
         "@astrojs/mdx": "7.0.8",
         "@astrojs/rss": "4.0.19",
         "@astrojs/sitemap": "3.7.6",
-        "@cloudflare/workers-types": "4.20260702.1",
+        "@cloudflare/workers-types": "5.20261128.1",
         "@iconify-json/fluent": "^1.2.45",
         "@iconify-json/jam": "^1.2.3",
         "@iconify-json/mdi": "^1.2.3",
@@ -124,7 +124,7 @@
 
     "@cloudflare/workerd-windows-64": ["@cloudflare/workerd-windows-64@1.20261127.1", "", { "os": "win32", "cpu": "x64" }, "sha512-ebko9XaZy6iqDHLr4WH2dC01Hf8L8xQe2GxBwqdsUfAmhMPGbnk33GtvR5FFaae+CPCPiU/H2TY1WeJ8cNSKdQ=="],
 
-    "@cloudflare/workers-types": ["@cloudflare/workers-types@4.20260702.1", "", {}, "sha512-mOhf5TUEB1m2vPrxtqoIGfz0fUC9xyxRDx5gWHy5s+OCo6dcV+g7wI1R7gYCMFohhqF/2y2xeKVwMwCJjfn/WA=="],
+    "@cloudflare/workers-types": ["@cloudflare/workers-types@5.20261128.1", "", {}, "sha512-1GwY0jj8lJU7QjaAq0JMETVcJL868XetjLpH05a1RcL+ggROf5KTWTlDuVdxljU2mPBcjY5KlA5snCbB6d31jg=="],
 
     "@cloudflare/workers-utils": ["@cloudflare/workers-utils@0.58.0", "", { "dependencies": { "@cspotcode/source-map-support": "0.8.1", "chalk": "5.3.0", "dotenv": "16.3.1", "undici": "7.30.2" }, "peerDependencies": { "vitest": "^4.1.0 || ^5.0.0" }, "optionalPeers": ["vitest"] }, "sha512-Mib8I2ijrBIm7mEykEYq369kOHtJvHIwhUh4n6w+RSuOL8LeXCHRXTKt8luE8irRM9d35kYlG+crDKjE7PQj6g=="],
 
